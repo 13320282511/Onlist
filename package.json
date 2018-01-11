@@ -1,0 +1,17 @@
+{
+  "name": "shopd",
+  "version": "1.0.0",
+  "description": "muban dajian",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack"
+  },
+  "author": "zj",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^7.2.4",
+    "postcss-loader": "^2.0.10",
+    "webpack-spritesmith": "^0.4.0"
+  }
+}
