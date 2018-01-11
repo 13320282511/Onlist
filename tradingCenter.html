@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport"
+          content="initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, user-scalable=no">
+    <link href="css/sm.css" rel="stylesheet">
+    <link href="css/swiper.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <script type="text/javascript" src="js/zepto.min.js"></script>
+    <script>
+        $.config = {router: false}
+    </script>
+    <script type="text/javascript" src="js/sm.min.js"></script>
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+</head>
+<body>
+<div class="content">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./img/trading-banner.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./img/trading-banner.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./img/trading-banner.jpg.jpg" alt=""></div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <div class="space-div20"></div>
+    <div class="nav-icon">
+        <a>
+            <img src="img/nav-icon1.png">
+            <span>鲜果直供</span>
+        </a>
+        <a>
+            <img src="img/nav-icon2.png">
+            <span>果树认购</span>
+        </a>
+        <a>
+            <img src="img/nav-icon3.png">
+            <span>会员福利</span>
+        </a>
+        <a>
+            <img src="img/nav-icon4.png">
+            <span>我的果树</span>
+        </a>
+        <a>
+            <img src="img/nav-icon5.png">
+            <span>果树订单</span>
+        </a>
+        <a>
+            <img src="img/nav-icon6.png">
+            <span>农场介绍</span>
+        </a>
+    </div>
+
+    <div class="dynamic-information">
+        <div class="dynamic-information-top">
+            <div class="dynamic-information-ds">
+                <h3>动态信息</h3>
+                <span></span>
+            </div>
+        </div>
+        <div class="dynamic-information-body">
+            <div class="dynamic-information-list">
+                <div class="dynamic-information-list-top">
+                    <a class="dynamic-information-list-img"><img src="img/dynamic.png"> </a>
+                    <a class="dynamic-information-list-content">共享农场正式试运营，用户可在平台购买水果和果树，农场采用年管理营，用户可在平台购买水果和果树…</a>
+                </div>
+                <div class="dynamic-information-list-bottom">
+                    <div class="time">
+                        <span>201711</span>
+                        <span class="timespan">35分钟前</span>
+                    </div>
+                    <div class="total">
+                        <a>1234</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<nav class="bar bar-tab">
+    <a class="first tab-item external active" href="#">
+        <div><img src="img/icon-fixed1.png"></div>
+        <span class="tab-label-icon">首页</span>
+    </a>
+    <a class="second tab-item external" href="#">
+        <div><img src="img/icon-fixed2.png"></div>
+        <span class="tab-label-icon">交易</span>
+    </a>
+    <a class="three tab-item external" href="#">
+        <div><img src="img/icon-fixed3.png"></div>
+        <span class="tab-label-icon">果园</span>
+    </a>
+    <a class="four tab-item external" href="#">
+        <div><img src="img/icon-fixed4.png"></div>
+        <span class="tab-label-icon">购物车</span>
+    </a>
+    <a class="five tab-item external" href="#">
+        <div><img src="img/icon-fixed5.png"></div>
+        <span class="tab-label-icon">我的</span>
+    </a>
+</nav>
+<script>
+    $(function () {
+        var swiper = new Swiper('.swiper-container', {
+            pagination: {
+                el: '.swiper-pagination'
+            },
+            autoplay: {
+                delay: 1000,
+                disableOnInteraction:false
+            }
+        });
+    });
+</script>
+</body>
+</html>

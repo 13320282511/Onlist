@@ -1,6 +1,8 @@
 body{font-family: '微软雅黑',"Helvetica Neue", Helvetica, sans-serif;background-color: #f4f4f4;}
 .content{overflow-x: hidden;bottom: 2.5rem;}
+.content.content-fruit{bottom: 0;}
 .swiper-slide img{width:100%;}
+.fruit{background-color: #fff}
 .swiper-container {
     width: 100%;
     height: 100%;
@@ -267,4 +269,91 @@ body{font-family: '微软雅黑',"Helvetica Neue", Helvetica, sans-serif;backgro
     margin-left: .5rem;
     background: url("../img/icon2.png") no-repeat;
     background-size: .6rem .375rem;
+}
+.fruit-list-wrap{
+
+}
+.fruit-list-wrap-list{
+
+}
+.fruit-list-one{
+    padding: 0.75rem 0;
+    display: flex;
+    border-bottom:1px solid #e8e8e8;
+}
+.fruit-list-one>a{
+    display: block;
+    width: 5rem;
+    height: 3.825rem;
+    margin: 0 0.825rem;
+    overflow: hidden;
+}
+.fruit-list-one>a img{
+display: block;
+    width: 100%;
+    border-radius: .2rem;
+}
+.fruit-list-content{
+    flex: 1;
+    padding-right: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    height: 3.825rem;
+}
+.fruit-list-content>a{
+    flex: 1;
+    font-size: 0.7rem;
+    color: #333;
+
+}
+.fruit-list-bottom{
+height: 0.9rem;
+    display: flex;
+}
+.fruit-list-bottom-left{
+flex: 1;
+    font-size: 0;
+}
+.fruit-list-bottom-left span.vip{
+display: inline-block;
+    width: 1.125rem;
+    height:0.635rem;
+    border-radius: 2px;
+    background-color: #ff8a00;
+    text-align: center;
+    line-height: 0.635rem;
+    font-size: 0.55rem;
+    color: #fff;
+    margin-right: 0.25rem;
+}
+.fruit-list-bottom-left span{
+    line-height: 1;
+}
+.fruit-list-bottom-left span.money-flag{
+    display: inline-block;
+    font-size: 0.6rem;
+    color: #ff8a00;
+    font-weight: bold;
+}
+.fruit-list-bottom-left span.money-ten{
+    display: inline-block;
+    font-size: 0.9rem;
+    color: #ff8a00;
+    font-weight: bold;
+}
+.fruit-list-bottom-left span.money-one{
+    display: inline-block;
+    font-size: 0.6rem;
+    color: #ff8a00;
+}
+.fruit-list-bottom-left span.money-init{
+    display: inline-block;
+    font-size: .6rem;
+    color: #999;
+    margin-left: .6rem;
+}
+.fruit-list-bottom span.already-shop{
+    width: 2.75rem;
+    font-size: .6rem;
+    color: #999;
 }
