@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport"
+          content="initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, user-scalable=no">
+    <link href="css/sm.css" rel="stylesheet">
+    <link href="css/swiper.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <script type="text/javascript" src="js/zepto.min.js"></script>
+    <script>
+        $.config = {router: false}
+    </script>
+    <script type="text/javascript" src="js/sm.min.js"></script>
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+</head>
+<body>
+<style type="text/css">
+    .content{
+        background: #fff;
+        bottom: 0;
+    }
+    .buttons-tab .button{
+        height: 2.1rem;
+        line-height: 2.1rem;
+        border-bottom: 0.1rem solid transparent;
+        color: #333;
+        font-size:0.75rem;
+    }
+    .buttons-tab .button.active{
+color: #52b456;
+        border-color:#e8e8e8 ;
+        border-bottom: 0.1rem solid #52b456;
+    }
+    .buttons-tab>a.button{
+        border-right:1px solid #e8e8e8;
+    }
+    .buttons-tab>a.button:last-child{
+        border-right:0;
+    }
+    .content-block{
+        margin: 0;
+        padding: 0;
+    }
+
+</style>
+<div class="content">
+    <div class="buttons-tab">
+        <a href="#tab1" class="tab-link active button">全部果树</a>
+        <a href="#tab2" class="tab-link button">投资型果树</a>
+        <a href="#tab3" class="tab-link button">消费型果树</a>
+    </div>
+    <div class="content-block">
+        <div class="tabs">
+            <div id="tab1" class="tab active">
+                <div class="content-block">
+                    <div class="myorchard-fruit-all">
+                        <div class="myorchard-fruit-all-list">
+                            <div class="myorchard-fruit-all-list-left">
+                                <img src="img/fruitdetail1.jpg" />
+                            </div>
+                            <div class="myorchard-fruit-all-list-right">
+                                <a>
+                                    <span>消费</span>投资型果树-杨梅果树苗，生长状
+                                    态良好，收益稳定
+                                </a>
+                                <div class="myorchard-fruit-all-list-bt">
+                                    <div class="caizai"><a>可采摘</a></div>
+                                    <div class="caizai-right">
+                                        <a>
+                                            <img src="img/fruitdetail8.png" />
+                                        </a>
+                                        <a>
+                                            <img src="img/fruitdetail9.png" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="myorchard-fruit-all-list">
+                            <div class="myorchard-fruit-all-list-left">
+                                <img src="img/fruitdetail1.jpg" />
+                            </div>
+                            <div class="myorchard-fruit-all-list-right">
+                                <a>
+                                    <span>消费</span>投资型果树-杨梅果树苗，生长状
+                                    态良好，收益稳定
+                                </a>
+                                <div class="myorchard-fruit-all-list-bt">
+                                    <div class="caizai"><a class="no-caizai">预计136天后可采摘</a></div>
+                                    <div class="caizai-right">
+                                        <a>
+                                            <img src="img/fruitdetail8.png" />
+                                        </a>
+                                        <a>
+                                            <img src="img/fruitdetail10.png" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="myorchard-fruit-all-list">
+                            <div class="myorchard-fruit-all-list-left">
+                                <img src="img/fruitdetail1.jpg" />
+                            </div>
+                            <div class="myorchard-fruit-all-list-right">
+                                <a>
+                                    <span class="touzi">投资</span>投资型果树-杨梅果树苗，生长状
+                                    态良好，收益稳定
+                                </a>
+                                <div class="myorchard-fruit-all-list-bt">
+                                    <div class="caizai"><a>已成熟</a></div>
+                                    <div class="caizai-right">
+                                        <a class="daixiao-shuju">
+                                            代销数据
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="myorchard-fruit-all-list">
+                            <div class="myorchard-fruit-all-list-left">
+                                <img src="img/fruitdetail1.jpg" />
+                            </div>
+                            <div class="myorchard-fruit-all-list-right">
+                                <a>
+                                    <span class="touzi">投资</span>投资型果树-杨梅果树苗，生长状
+                                    态良好，收益稳定
+                                </a>
+                                <div class="myorchard-fruit-all-list-bt">
+                                    <div class="caizai"><a class="no-caizai">未成熟</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="tab2" class="tab">
+                <div class="content-block">
+                    <div class="myorchard-fruit-all">
+                        <div class="myorchard-fruit-all-list">
+                            <div class="myorchard-fruit-all-list-left">
+                                <img src="img/fruitdetail1.jpg" />
+                            </div>
+                            <div class="myorchard-fruit-all-list-right">
+                                <a>
+                                    <span>消费2</span>投资型果树-杨梅果树苗，生长状
+                                    态良好，收益稳定
+                                </a>
+                                <div class="myorchard-fruit-all-list-bt">
+                                    <div class="caizai"><a>可采摘</a></div>
+                                    <div class="caizai-right">
+                                        <a>
+                                            <img src="img/fruitdetail8.png" />
+                                        </a>
+                                        <a>
+                                            <img src="img/fruitdetail9.png" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="myorchard-fruit-all-list">
+                            <div class="myorchard-fruit-all-list-left">
+                                <img src="img/fruitdetail1.jpg" />
+                            </div>
+                            <div class="myorchard-fruit-all-list-right">
+                                <a>
+                                    <span>消费</span>投资型果树-杨梅果树苗，生长状
+                                    态良好，收益稳定
+                                </a>
+                                <div class="myorchard-fruit-all-list-bt">
+                                    <div class="caizai"><a class="no-caizai">预计136天后可采摘</a></div>
+                                    <div class="caizai-right">
+                                        <a>
+                                            <img src="img/fruitdetail8.png" />
+                                        </a>
+                                        <a>
+                                            <img src="img/fruitdetail10.png" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="myorchard-fruit-all-list">
+                            <div class="myorchard-fruit-all-list-left">
+                                <img src="img/fruitdetail1.jpg" />
+                            </div>
+                            <div class="myorchard-fruit-all-list-right">
+                                <a>
+                                    <span class="touzi">投资</span>投资型果树-杨梅果树苗，生长状
+                                    态良好，收益稳定
+                                </a>
+                                <div class="myorchard-fruit-all-list-bt">
+                                    <div class="caizai"><a>已成熟</a></div>
+                                    <div class="caizai-right">
+                                        <a class="daixiao-shuju">
+                                            代销数据
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="myorchard-fruit-all-list">
+                            <div class="myorchard-fruit-all-list-left">
+                                <img src="img/fruitdetail1.jpg" />
+                            </div>
+                            <div class="myorchard-fruit-all-list-right">
+                                <a>
+                                    <span class="touzi">投资</span>投资型果树-杨梅果树苗，生长状
+                                    态良好，收益稳定
+                                </a>
+                                <div class="myorchard-fruit-all-list-bt">
+                                    <div class="caizai"><a class="no-caizai">未成熟</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="tab3" class="tab">
+                <div class="content-block">
+                    <div class="myorchard-fruit-all">
+                        <div class="myorchard-fruit-all-list">
+                            <div class="myorchard-fruit-all-list-left">
+                                <img src="img/fruitdetail1.jpg" />
+                            </div>
+                            <div class="myorchard-fruit-all-list-right">
+                                <a>
+                                    <span>消费5</span>投资型果树-杨梅果树苗，生长状
+                                    态良好，收益稳定
+                                </a>
+                                <div class="myorchard-fruit-all-list-bt">
+                                    <div class="caizai"><a>可采摘</a></div>
+                                    <div class="caizai-right">
+                                        <a>
+                                            <img src="img/fruitdetail8.png" />
+                                        </a>
+                                        <a>
+                                            <img src="img/fruitdetail9.png" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="myorchard-fruit-all-list">
+                            <div class="myorchard-fruit-all-list-left">
+                                <img src="img/fruitdetail1.jpg" />
+                            </div>
+                            <div class="myorchard-fruit-all-list-right">
+                                <a>
+                                    <span>消费</span>投资型果树-杨梅果树苗，生长状
+                                    态良好，收益稳定
+                                </a>
+                                <div class="myorchard-fruit-all-list-bt">
+                                    <div class="caizai"><a class="no-caizai">预计136天后可采摘</a></div>
+                                    <div class="caizai-right">
+                                        <a>
+                                            <img src="img/fruitdetail8.png" />
+                                        </a>
+                                        <a>
+                                            <img src="img/fruitdetail10.png" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="myorchard-fruit-all-list">
+                            <div class="myorchard-fruit-all-list-left">
+                                <img src="img/fruitdetail1.jpg" />
+                            </div>
+                            <div class="myorchard-fruit-all-list-right">
+                                <a>
+                                    <span class="touzi">投资</span>投资型果树-杨梅果树苗，生长状
+                                    态良好，收益稳定
+                                </a>
+                                <div class="myorchard-fruit-all-list-bt">
+                                    <div class="caizai"><a>已成熟</a></div>
+                                    <div class="caizai-right">
+                                        <a class="daixiao-shuju">
+                                            代销数据
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="myorchard-fruit-all-list">
+                            <div class="myorchard-fruit-all-list-left">
+                                <img src="img/fruitdetail1.jpg" />
+                            </div>
+                            <div class="myorchard-fruit-all-list-right">
+                                <a>
+                                    <span class="touzi">投资</span>投资型果树-杨梅果树苗，生长状
+                                    态良好，收益稳定
+                                </a>
+                                <div class="myorchard-fruit-all-list-bt">
+                                    <div class="caizai"><a class="no-caizai">未成熟</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+</div>
+
+<script>
+    $(function () {
+
+    });
+</script>
+</body>
+</html>
