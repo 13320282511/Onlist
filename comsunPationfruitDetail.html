@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport"
+          content="initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, user-scalable=no">
+    <link href="css/sm.css" rel="stylesheet">
+    <link href="css/swiper.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <script type="text/javascript" src="js/zepto.min.js"></script>
+    <script>
+        $.config = {router: false}
+    </script>
+    <script type="text/javascript" src="js/sm.min.js"></script>
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+</head>
+<body>
+<div class="content">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./img/fruitdetail1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./img/fruitdetail1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./img/fruitdetail1.jpg" alt=""></div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <div class="fruit-detail-banner-bottom">
+        <a>贵妃笑荔枝好吃小米米贵妃笑荔枝好吃小米米贵妃笑荔
+            枝好吃小米米</a>
+        <div class="fruit-list-bottom">
+            <div class="fruit-list-bottom-left"><span class="money-flag">¥</span><span class="money-ten">12.</span><span class="money-one">90</span></div><span class="already-shop">已售2345</span>
+        </div>
+    </div>
+    <div class="space-div30"></div>
+    <div class="delivery-description">
+        <div class="delivery-description-num">
+            <span>数量</span>
+            <div class="delivery-description-num-select">
+                <a class="jian">-</a><input type="text" value="1" id="numtotal"><a class="jia">+</a>
+            </div>
+        </div>
+    </div>
+    <div class="space-div30"></div>
+    <div class="fruit-detail-jies">
+        <div class="fruit-detail-jies-title">
+           商品介绍
+        </div>
+        <div class="fruit-detail-jies-img">
+            <img src="img/fruitdetail2.jpg"/>
+            美国核桃，又名薄壳山核桃，美国长山核桃，为双子叶植物纲胡桃科山核桃属下的植物，原产美国密西西比河流域及墨西哥湾南部，现已成为世界性的干果类树种之一。
+            美国核桃坚果种仁味美，在胡桃果树中品质最佳，可生食，炒食或作糖果。无论是从口感上还是营养上来说都要比普通的核桃营养价值要高；成长在美丽富饶的齐鲁大地，坐落在灵秀的泰山脚下，自古以来的苗木之乡，优越的地理位置和富饶的土地，勤劳的人民造就了我们现代化的农业高科技经济体系。
+        </div>
+    </div>
+    <div class="space-div30"></div>
+    <div class="fruit-detail-jies">
+        <div class="fruit-detail-jies-title">
+            商品推荐
+        </div>
+        <div class="trading-list-shop-inner padding-top">
+            <div class="trading-list-inner-one">
+                <a>
+                    <div class="trading-list-oneimg">
+                        <img src="img/trading4.jpg">
+                    </div>
+                    <p>贵妃笑荔枝好吃小米米…</p>
+                    <div class="fruit-list-bottom">
+                        <div class="fruit-list-bottom-left"><span class="vip">VIP</span><span class="money-flag">¥</span><span class="money-ten">12.</span><span class="money-one">90</span><span class="money-init">原价¥18.9</span></div>
+                    </div>
+                </a>
+            </div>
+            <div class="trading-list-inner-one">
+                <a>
+                    <div class="trading-list-oneimg">
+                        <img src="img/trading4.jpg">
+                    </div>
+                    <p>贵妃笑荔枝好吃小米米…</p>
+                    <div class="fruit-list-bottom">
+                        <div class="fruit-list-bottom-left"><span class="vip">VIP</span><span class="money-flag">¥</span><span class="money-ten">12.</span><span class="money-one">90</span><span class="money-init">原价¥18.9</span></div>
+                    </div>
+                </a>
+            </div>
+            <div class="trading-list-inner-one">
+                <a>
+                    <div class="trading-list-oneimg">
+                        <img src="img/trading4.jpg">
+                    </div>
+                    <p>贵妃笑荔枝好吃小米米…</p>
+                    <div class="fruit-list-bottom">
+                        <div class="fruit-list-bottom-left"><span class="vip">VIP</span><span class="money-flag">¥</span><span class="money-ten">12.</span><span class="money-one">90</span><span class="money-init">原价¥18.9</span></div>
+                    </div>
+                </a>
+            </div>
+            <div class="trading-list-inner-one">
+                <a>
+                    <div class="trading-list-oneimg">
+                        <img src="img/trading4.jpg">
+                    </div>
+                    <p>贵妃笑荔枝好吃小米米…</p>
+                    <div class="fruit-list-bottom">
+                        <div class="fruit-list-bottom-left"><span class="vip">VIP</span><span class="money-flag">¥</span><span class="money-ten">12.</span><span class="money-one">90</span><span class="money-init">原价¥18.9</span></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </div>
+</div>
+<nav class="bar bar-tab fruit-detail-button">
+    <a>加入购物车</a>
+    <a>立即购买</a>
+</nav>
+<script>
+    $(function () {
+        var swiper = new Swiper('.swiper-container', {
+            pagination: {
+                el: '.swiper-pagination'
+            },
+            autoplay: {
+                delay: 1000,
+                disableOnInteraction:false
+            }
+        });
+        document.querySelector('.delivery-description-num-select').addEventListener('click',function(e){
+            if(e.target.className == 'jian'){
+               var numTotal = $('#numtotal').val();
+                $('#numtotal').val(--numTotal);
+            }
+            if(e.target.className == 'jia'){
+                var numTotal = $('#numtotal').val();
+                $('#numtotal').val(++numTotal);
+            }
+        })
+    });
+</script>
+</body>
+</html>

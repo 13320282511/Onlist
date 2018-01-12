@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport"
+          content="initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, user-scalable=no">
+    <link href="css/sm.css" rel="stylesheet">
+    <link href="css/swiper.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <script type="text/javascript" src="js/zepto.min.js"></script>
+    <script>
+        $.config = {router: false}
+    </script>
+    <script type="text/javascript" src="js/sm.min.js"></script>
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+</head>
+<body>
+<div class="content">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./img/myorchard1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./img/myorchard1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./img/myorchard1.jpg" alt=""></div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <div class="space-div20"></div>
+    <div class="dynamic-information">
+        <div class="dynamic-information-top">
+            <div class="dynamic-information-ds">
+                <h3>我的家庭果园</h3>
+                <span>果树成熟期</span>
+            </div>
+        </div>
+        <div class="myorchard-fruit">
+            <div class="myorchard-fruit-inner">
+                <div class="myorchard-fruit-icon">
+                    <div class="myorchard-fruit-icon-one">
+                        <div class="myorchard-fruit-icon-oneimg"><img src="img/myorchard2.png" /></div>
+                        <span>您已承包</span>
+                        <p>
+                            368<sub>天</sub>
+                        </p>
+                    </div>
+                    <div class="myorchard-fruit-icon-one">
+                        <div class="myorchard-fruit-icon-oneimg"><img src="img/myorchard3.png" /></div>
+                        <span>拥有果树</span>
+                        <p>
+                            16<sub>棵</sub>
+                        </p>
+                    </div>
+                    <div class="myorchard-fruit-icon-one">
+                        <div class="myorchard-fruit-icon-oneimg"><img src="img/myorchard4.png" /></div>
+                        <span>拥有土地</span>
+                        <p>
+                            5<sub>亩</sub>
+                        </p>
+                    </div>
+                    <div class="myorchard-fruit-icon-one">
+                        <div class="myorchard-fruit-icon-oneimg"><img src="img/myorchard5.png" /></div>
+                        <span>果树品种</span>
+                        <p>
+                            5<sub>种</sub>
+                        </p>
+                    </div>
+                </div>
+                <div class="tongzhi-guoyuan">
+                    <a>果园打理通知</a>
+                </div>
+            </div>
+        </div>
+        <div class="myorchard-fruit-guoyuan">
+            <div class="myorchard-fruit-guoyuan-inner">
+                <div class="myorchard-fruit-guoyuands">
+                    <a><span>2018.01.20</span>果苗已完成移栽</a>
+                    <a><span>2018.01.20</span>果苗已完成移栽</a>
+                    <a><span>2018.01.20</span>果苗已完成移栽</a>
+                    <a><span>2018.01.20</span>果苗已完成移栽</a>
+                </div>
+                <div class="myorchard-fruit-guoyuanimg">
+                    <img src="img/myorchard7.jpg"/>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="space-div20"></div>
+    <div class="dynamic-information">
+        <div class="dynamic-information-top">
+            <div class="dynamic-information-ds">
+                <h3>我的全部果树</h3>
+                <a></a>
+            </div>
+        </div>
+        <div class="myorchard-fruit-all">
+            <div class="myorchard-fruit-all-list">
+                <div class="myorchard-fruit-all-list-left">
+                    <img src="img/fruitdetail1.jpg" />
+                </div>
+                <div class="myorchard-fruit-all-list-right">
+                    <a>
+                        <span>消费</span>投资型果树-杨梅果树苗，生长状
+                        态良好，收益稳定
+                    </a>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<nav class="bar bar-tab">
+    <a class="first tab-item external" href="#">
+        <div><img src="img/icon-fixed1.png"></div>
+        <span class="tab-label-icon">首页</span>
+    </a>
+    <a class="second tab-item external" href="#">
+        <div><img src="img/icon-fixed2.png"></div>
+        <span class="tab-label-icon">交易</span>
+    </a>
+    <a class="three tab-item external" href="#">
+        <div><img src="img/icon-fixed3.png"></div>
+        <span class="tab-label-icon">果园</span>
+    </a>
+    <a class="four tab-item external" href="#">
+        <div><img src="img/icon-fixed4.png"></div>
+        <span class="tab-label-icon">购物车</span>
+    </a>
+    <a class="five tab-item external" href="#">
+        <div><img src="img/icon-fixed5.png"></div>
+        <span class="tab-label-icon">我的</span>
+    </a>
+</nav>
+<script>
+    $(function () {
+        var swiper = new Swiper('.swiper-container', {
+            pagination: {
+                el: '.swiper-pagination'
+            },
+            autoplay: {
+                delay: 1000,
+                disableOnInteraction:false
+            }
+        });
+    });
+</script>
+</body>
+</html>
