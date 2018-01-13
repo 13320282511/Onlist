@@ -7,7 +7,25 @@ body {
     overflow-x: hidden;
     bottom: 2.5rem;
 }
-
+.common-reutrn{
+    padding: 0 0.75rem;
+    display: flex;
+    color: #fff;
+    font-size: 0.85rem;
+    align-items: center;
+    background-color: #333;
+    height: 2.1rem;
+}
+.common-reutrn>span{
+    flex: 1;
+    text-align: center;
+}
+.common-reutrn>a{
+    width: 1rem;
+    height: 1rem;
+    background: url("../img/icon-return.png") no-repeat left center;
+    background-size: contain;
+}
 .content.content-fruit {
     bottom: 0;
 }
@@ -427,8 +445,9 @@ body {
 }
 
 .fruit-list-bottom {
-    height: 0.9rem;
+    /*height: 0.9rem;*//*不確定是否需要設置具體高度*/
     display: flex;
+    align-items: flex-end;
 }
 
 .fruit-list-bottom-left {
@@ -795,6 +814,7 @@ body {
     border-radius: 3px;
     overflow: hidden;
     display: flex;
+    align-items: center;
 }
 
 .delivery-description-num-select > a {
@@ -892,13 +912,39 @@ body {
     flex-direction: column;
     border-right: 1px solid #e8e8e8;
 }
-
+.fruit-income-output-sale{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-right: 1px solid #e8e8e8;
+}
 .fruit-income-output > span {
     display: block;
     color: #ff8a00;
     font-size: 1rem;
 }
-
+.fruit-income-output-sale>span{
+    display: block;
+    width: 1.25rem;
+    height: 1.25rem;
+    background: url("../img/fruitsale1.png") no-repeat center center;
+    background-size: cover;
+    margin-bottom: 0.55rem;
+}
+.fruit-income-output-sale>span.friend-sale{
+    /*width: 1.15rem;*/
+    /*height: 1.15rem;*/
+    background: url("../img/fruitsale2.png") no-repeat center center;
+    background-size: cover;
+}
+.fruit-income-output-sale>a{
+    display: block;
+    color: #333;
+    font-size: 0.7rem;
+    line-height: 1;
+}
 .fruit-income-output > a {
     display: block;
     background: url("../img/fruitdetail4 .png") no-repeat left center;
@@ -1083,8 +1129,11 @@ color: #333;
     background-color: #52b456;
 }
 .myorchard-fruit-all-list-bt{
-height: 1.3rem;
-    display: flex;
+     height: 1.3rem;
+     display: flex;
+ }
+.myorchard-fruit-all-list-bt.already-bt{
+    height: 0.6rem;
 }
 .caizai{
 flex: 1;
@@ -1105,6 +1154,15 @@ padding: 0 0.2rem;
     color: #999;
     height:0.65rem;
     line-height: 0.65rem;
+}
+.caizai>a.already-a{
+    border: none;
+    border-radius: 3px;
+    font-size: 0.6rem;
+    color: #999;
+    display: flex;
+    line-height: 1;
+    padding: 0;
 }
 .caizai-right{
 width: 3.65rem;
@@ -1330,4 +1388,267 @@ padding: 1rem 0 0 1.425rem;
     background: url("../img/treeicon18.png") no-repeat center center;
     background-size: cover;
     margin-right: 0.55rem;
+}
+
+/*采摘水果*/
+.fruit-income-sale{
+background-color: #fff;
+    height: 3.925rem;
+    border-bottom: 1px solid #e8e8e8;
+}
+.fruit-income-inner-sale{
+    display: flex;
+    height: 100%;
+}
+.fruit-sale-ok{
+    background-color: #fff;
+}
+.fruit-sale-button{}
+.fruit-sale-button>a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #ff8a00;
+    line-height: 2.5rem;
+   font-size:0.75rem;
+    color: #fff;
+    text-align: center;
+}
+.tixian-sale-button{
+
+}
+.tixian-sale-button>a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #52b456;
+    line-height: 2.5rem;
+    font-size:0.75rem;
+    color: #fff;
+    text-align: center;
+}
+.fruit-sucess-bg{
+    height:3.45rem ;
+    background: url("../img/fruitsucess1.jpg") no-repeat center center;
+    background-size: cover;
+}
+.fruit-sucess-inner{
+    padding: 0 0.75rem;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.fruit-sucess-left-img{
+    width: 3.325rem;
+    margin-right: 1.125rem;
+}
+.fruit-sucess-left-img img{
+    display: block;
+    width: 100%;
+}
+.fruit-sucess-right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.fruit-sucess-right>a{
+font-size: 0.75rem;
+    color: #fff;
+}
+.fruit-sucess-right>span{
+font-size: 0.6rem;
+    color: #fff;
+}
+.fruit-sale-sucess-num{
+    background-color: #fff;
+    height: 2.2rem;
+    padding: 0 0.75rem;
+    border-bottom: 1px solid #e8e8e8;
+    display: flex;
+    align-items: center;
+}
+.fruit-sale-sucess-num-inner{
+    color: #333;
+    font-size: 0.6rem;
+}
+.fruit-data-csg{
+padding: 0.375rem 0.75rem;
+    background-color: #fff;
+    border-bottom: 1px solid #e8e8e8;
+    border-top:1px solid #e8e8e8;
+}
+.fruit-data-csg-inner{
+
+}
+.fruit-data-csg-list{
+display: flex;
+    align-items: center;
+    height: 1.35rem;
+}
+.fruit-data-csg-list>a{
+    width: 5rem;
+    color: #666;
+    font-size: 0.65rem;
+    text-align: right;
+}
+.fruit-data-csg-list>a.acclick{
+    color: #f44336;
+}
+.fruit-data-csg-list>span{
+    flex: 1;
+    color: #666;
+    font-size: 0.65rem;
+
+}
+.fruit-sale-tel-edite{
+    text-align:right;
+    font-size: 0.65rem;
+    color: #333;
+}
+.fruit-sale-tel-edite-noicon{
+    font-size: 0.65rem;
+    color: #333;
+}
+.list-block .item-link .item-inner.item-edite{
+    background-image: url("../img/icon-edite1.png");
+}
+.item-edite .fruit-sale-tel-edite{
+    text-align: left;
+}
+.on-off{
+    text-align: right;
+}
+.edite-address-delete{
+display: flex;
+    align-items: center;
+    height: 2.2rem;
+    color: #f44336;
+    font-size: 0.65rem;
+    padding: 0 0.75rem;
+    border-bottom: 1px solid #e8e8e8;
+    border-top:1px solid #e8e8e8;
+}
+.select-address-default{
+padding: 0 0.75rem;
+    background-color: #fff;
+    height: 1.9rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e8e8e8;
+    border-top:1px solid #e8e8e8;
+}
+.select-address-default-set{
+    font-size: 0.6rem;
+    color: #333;
+    display: flex;
+    align-items: center;
+
+}
+.select-address-default-set:before{
+    display: block;
+    content: " ";
+    width: 0.875rem;
+    height: 0.875rem;
+    background: url("../img/icon-address1.png") no-repeat left center;
+    background-size: cover;
+    margin-right: 0.5rem;
+}
+.select-address-default-set.no-select:before{
+    display: block;
+    content: " ";
+    width: 0.875rem;
+    height: 0.875rem;
+    background: url("../img/icon-address2.png") no-repeat left center;
+    background-size: cover;
+    margin-right: 0.5rem;
+}
+.select-address-default-opreation{
+flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.select-address-default-opreation>a{
+display: flex;
+    color: #999;
+    font-size: 0.6rem;
+    align-items: center;
+}
+.select-address-default-opreation a.edite-a:before{
+    display: block;
+    content: " ";
+    width: 0.95rem;
+    height: 0.85rem;
+background: url("../img/icon-address3.png") no-repeat left center;
+    background-size: cover;
+    margin-right: 0.425rem;
+}
+.select-address-default-opreation a.del-a{
+    margin-left: 1.3rem;
+}
+.select-address-default-opreation a.del-a:before{
+    display: block;
+    content: " ";
+    width: 0.85rem;
+    height: 0.85rem;
+    background: url("../img/icon-address4.png") no-repeat left center;
+    background-size: cover;
+    margin-right: 0.425rem;
+}
+.select-address-wp-ct{
+    margin: 0;
+}
+.shopcart-button{
+height: 2.5rem;
+    background-color: #fff;
+    border-top: 1px solid #e8e8e8;
+    padding: 0 0 0 0.75rem;
+    display: flex;
+    align-items: center;
+}
+.shopcart-button>a.all-select-ok{
+font-size: 0.6rem;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+.shopcart-button >a.all-select-ok:before{
+    display: block;
+    content: " ";
+    width: 0.875rem;
+    height: 0.875rem;
+    background: url("../img/icon-address1.png") no-repeat left center;
+    background-size: cover;
+    margin-right: 0.5rem;
+}
+.shopcart-button>a.all-select-ok.no-all-ok:before{
+    display: block;
+    content: " ";
+    width: 0.875rem;
+    height: 0.875rem;
+    background: url("../img/icon-address2.png") no-repeat left center;
+    background-size: cover;
+    margin-right: 0.5rem;
+}
+.shopcart-all-num{
+font-size: 0.75rem;
+    color: #333;
+    flex: 1;
+    text-align: right;
+}
+.shopcart-all-num>span{
+color: #ff8a00;
+}
+.shopcart-button>a.go-buy{
+width: 4.5rem;
+    justify-content: center;
+    background-color: #ff8a00;
+    font-size: 0.75rem;
+    height: 100%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin-left: 0.75rem;
+    margin-top: -2px;
+    position: relative;
+    z-index: 333;
 }

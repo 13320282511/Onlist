@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport"
+          content="initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, user-scalable=no">
+    <link href="css/sm.css" rel="stylesheet">
+    <link href="css/swiper.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <script type="text/javascript" src="js/zepto.min.js"></script>
+    <script>
+        $.config = {router: false}
+    </script>
+    <script type="text/javascript" src="js/sm.min.js"></script>
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+</head>
+<body>
+<style type="text/css">
+    .content{
+    }
+    .list-block{
+        margin: 0;
+    }
+    .list-block li{
+
+    }
+    .list-block .item-content{
+        padding-left: 0;
+    }
+    .list-block .item-inner:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        right: auto;
+        top: auto;
+        height: 0;
+        width: 0;
+        background-color: #e7e7e7;
+        display: block;
+        z-index: 15;
+        -webkit-transform-origin: 50% 100%;
+        transform-origin: 50% 100%;
+    }
+    @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+        .list-block .item-inner:after {
+            -webkit-transform: scaleY(0.5);
+            transform: scaleY(0.5);
+        }
+    }
+    @media only screen and (-webkit-min-device-pixel-ratio: 3) {
+        .list-block .item-inner:after {
+            -webkit-transform: scaleY(0.33);
+            transform: scaleY(0.33);
+        }
+    }
+    .list-block .item-content:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        right: auto;
+        top: auto;
+        height: 1px;
+        width: 100%;
+        background-color: #e7e7e7;
+        display: block;
+        z-index: 15;
+        -webkit-transform-origin: 50% 100%;
+        transform-origin: 50% 100%;
+    }
+    @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+        .list-block .item-content:after {
+            -webkit-transform: scaleY(0.5);
+            transform: scaleY(0.5);
+        }
+    }
+    @media only screen and (-webkit-min-device-pixel-ratio: 3) {
+        .list-block .item-content:after {
+            -webkit-transform: scaleY(0.33);
+            transform: scaleY(0.33);
+        }
+    }
+    .list-block .item-title.label{
+        font-size: 0.65rem;
+        color:#333;
+    }
+    .list-block input[type="text"], .list-block input[type="password"], .list-block input[type="search"], .list-block input[type="email"], .list-block input[type="tel"], .list-block input[type="url"], .list-block input[type="date"], .list-block input[type="datetime-local"], .list-block input[type="time"], .list-block input[type="number"], .list-block select, .list-block textarea{
+        font-size: 0.6rem;
+        color: #999;
+        text-align: right;
+    }
+    .list-block textarea{
+        padding-left: 0;
+        padding-top: 0;
+        line-height: 2.2rem;
+        color: #333;
+        font-size: 0.65rem;
+    }
+    .list-block textarea{
+        text-align: left;
+    }
+    /*.item-input input:after{*/
+        /*display: block;*/
+        /*content: " ";*/
+        /*width: 0.3rem;*/
+        /*height:0.6rem;*/
+        /*background: url("./img/dynamic-icon2.png") no-repeat right center;*/
+        /*background-size: cover;*/
+    /*}*/
+    /*.fruit-sale-lef:after{*/
+        /*display: block;*/
+        /*content: " ";*/
+        /*width: 0.3rem;*/
+        /*height:0.6rem;*/
+        /*background: url("./img/dynamic-icon2.png") no-repeat right center;*/
+        /*background-size: cover;*/
+    /*}*/
+    .fruit-my-inner:before{
+        display: block;
+        content: " ";
+        width: 1.25rem;
+        height:1.25rem;
+        background: url("./img/fruitsale1.png") no-repeat center center;
+        background-size: cover;
+        margin-right: 0.5rem;
+    }
+    .fruit-my-inner .item-title{
+        flex: 1;
+        font-size: 0.7rem;
+        color: #333;
+    }
+    .fruit-sale-tel{
+        text-align: right;
+    }
+    .fruit-sale-tel-wrap{
+flex-direction: column;
+    }
+    .fruit-sale-tel-wrap .label{
+        font-size: 0.7rem;
+        color: #333;
+    }
+    .fruit-sale-tel-wrap .fruit-sale-tel{
+        font-size: 0.7rem;
+        color: #333;
+    }
+    .fruit-sale-tel-bottom{
+        font-size:0.6rem;
+        color: #333;
+    }
+    .fruit-sale-tel-top{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+</style>
+<div class="content">
+    <section class="common-reutrn">
+        <a href="javascript:history.back(-1)" ></a>
+        <span>编辑地址</span>
+    </section>
+    <div class="list-block">
+        <ul>
+            <!-- Text inputs -->
+            <li>
+                <div class="item-content">
+                    <div class="item-media"><i class="icon icon-form-name"></i></div>
+                    <div class="item-inner">
+                        <div class="item-title label">收货人</div>
+                        <div class="item-input fruit-sale-tel-edite-noicon">
+                            薄荷杨
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="item-content item-link">
+                    <div class="item-media"><i class="icon icon-form-name"></i></div>
+                    <div class="item-inner item-edite">
+                        <div class="item-title label">联系电话</div>
+                        <div class="item-input fruit-sale-tel-edite">
+                            177236945684
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="item-content item-link">
+                    <div class="item-media"><i class="icon icon-form-name"></i></div>
+                    <div class="item-inner">
+                            <div class="item-title label">所在地区</div>
+                            <div class="item-input fruit-sale-tel-edite">
+                                重庆重庆市渝北区
+                            </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="item-content item-link">
+                    <div class="item-media"><i class="icon icon-form-name"></i></div>
+                    <div class="item-inner">
+                        <div class="item-title label">街道</div>
+                        <div class="item-input fruit-sale-tel-edite">
+                            天宫殿街道
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="align-top">
+                <div class="item-content">
+                    <div class="item-media"><i class="icon icon-form-name"></i></div>
+                    <div class="item-inner">
+                        <div class="item-input">
+                            <textarea>天宫花城5栋403</textarea>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="space-div30"></div>
+        <ul>
+            <li>
+                <div class="item-content">
+                    <div class="item-media"><i class="icon icon-form-toggle"></i></div>
+                    <div class="item-inner">
+                        <div class="item-title label">设为默认</div>
+                        <div class="item-input on-off">
+                            <label class="label-switch">
+                                <input type="checkbox">
+                                <div class="checkbox"></div>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="space-div30"></div>
+    <a class="edite-address-delete">删除地址</a>
+    <div class="space-div30"></div>
+</div>
+<nav class="bar bar-tab fruit-sale-button">
+    <a>保存地址</a>
+</nav>
+</body>
+</html>
