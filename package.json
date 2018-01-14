@@ -13,5 +13,8 @@
     "autoprefixer": "^7.2.4",
     "postcss-loader": "^2.0.10",
     "webpack-spritesmith": "^0.4.0"
+  },
+  "devDependencies": {
+    "gulp-autoprefixer": "^4.1.0"
   }
 }
