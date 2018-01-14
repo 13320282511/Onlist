@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport"
+          content="initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, user-scalable=no">
+    <link href="css/sm.css" rel="stylesheet">
+    <link href="css/swiper.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <script type="text/javascript" src="js/zepto.min.js"></script>
+    <script>
+        $.config = {router: false}
+    </script>
+    <script type="text/javascript" src="js/sm.min.js"></script>
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+</head>
+<body>
+<style type="text/css">
+    .content{
+    }
+
+</style>
+<div class="content">
+    <section class="common-reutrn">
+        <a href="javascript:history.back(-1)" ></a>
+        <span>选择支付方式</span>
+    </section>
+    <div class="pay-wrap">
+        <div class="pay-innner">
+            <a><img src="./img/icon-weixin.png"/> </a>
+            <div class="pay-inner-ds">
+                <h3>微信支付<span>推荐</span></h3>
+                <a>您的省心之选</a>
+            </div>
+        </div>
+    </div>
+    <div class="pay-wrap">
+        <div class="pay-innner no-select">
+            <a><img src="./img/icon-zhifubao.png"/> </a>
+            <div class="pay-inner-ds">
+                <h3>支付宝支付</h3>
+                <a>您的省心之选</a>
+            </div>
+        </div>
+    </div>
+    <div class="pay-wrap">
+        <div class="pay-innner no-select">
+            <a><img src="./img/icon-daofu.png"/> </a>
+            <div class="pay-inner-ds">
+                <h3>货到付款</h3>
+                <a>免去网银困扰，直接线下支付</a>
+            </div>
+        </div>
+    </div>
+</div>
+<nav class="bar bar-tab fruit-sale-button">
+    <a>立即支付</a>
+</nav>
+<script type="text/javascript">
+    $(function(){
+        document.querySelector('.content').addEventListener('click',function(e){
+            if(($(e.target).closest('.pay-innner').length != 0) && $(e.target).closest('.no-select').length != 0){
+                //e.target.classList.remove('no-select')
+                $(e.target).closest('.pay-innner')[0].classList.remove('no-select')
+            }else if($(e.target).closest('.pay-innner').length != 0 && $(e.target).closest('.no-select').length == 0){
+                $(e.target).closest('.pay-innner')[0].classList.add('no-select')
+            }
+        })
+    })
+</script>
+</body>
+</html>

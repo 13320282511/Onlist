@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport"
+          content="initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, user-scalable=no">
+    <link href="css/sm.css" rel="stylesheet">
+    <link href="css/swiper.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <script type="text/javascript" src="js/zepto.min.js"></script>
+    <script>
+        $.config = {router: false}
+    </script>
+    <script type="text/javascript" src="js/sm.min.js"></script>
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+    <script type="text/javascript" src="js/leftHua.js"></script>
+</head>
+<body>
+<style type="text/css">
+    .content{
+        background-color: #f4f4f4;
+    }
+    .list-block{
+        margin: 0;
+    }
+    .list-block li{
+
+    }
+    .list-block .item-content{
+        padding-left: 0;
+    }
+    .list-block .item-inner:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        right: auto;
+        top: auto;
+        height: 0;
+        width: 0;
+        background-color: #e7e7e7;
+        display: block;
+        z-index: 15;
+        -webkit-transform-origin: 50% 100%;
+        transform-origin: 50% 100%;
+    }
+    @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+        .list-block .item-inner:after {
+            -webkit-transform: scaleY(0.5);
+            transform: scaleY(0.5);
+        }
+    }
+    @media only screen and (-webkit-min-device-pixel-ratio: 3) {
+        .list-block .item-inner:after {
+            -webkit-transform: scaleY(0.33);
+            transform: scaleY(0.33);
+        }
+    }
+    .list-block .item-content:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        right: auto;
+        top: auto;
+        height: 1px;
+        width: 100%;
+        background-color: #e7e7e7;
+        display: block;
+        z-index: 15;
+        -webkit-transform-origin: 50% 100%;
+        transform-origin: 50% 100%;
+    }
+    @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+        .list-block .item-content:after {
+            -webkit-transform: scaleY(0.5);
+            transform: scaleY(0.5);
+        }
+    }
+    @media only screen and (-webkit-min-device-pixel-ratio: 3) {
+        .list-block .item-content:after {
+            -webkit-transform: scaleY(0.33);
+            transform: scaleY(0.33);
+        }
+    }
+    .list-block .item-title.label{
+        font-size: 0.7rem;
+        color:#333;
+    }
+    .list-block input[type="text"], .list-block input[type="password"], .list-block input[type="search"], .list-block input[type="email"], .list-block input[type="tel"], .list-block input[type="url"], .list-block input[type="date"], .list-block input[type="datetime-local"], .list-block input[type="time"], .list-block input[type="number"], .list-block select, .list-block textarea{
+        font-size: 0.65rem;
+        color: #333;
+        text-align: right;
+    }
+    /*.item-input input:after{*/
+    /*display: block;*/
+    /*content: " ";*/
+    /*width: 0.3rem;*/
+    /*height:0.6rem;*/
+    /*background: url("./img/dynamic-icon2.png") no-repeat right center;*/
+    /*background-size: cover;*/
+    /*}*/
+    /*.fruit-sale-lef:after{*/
+    /*display: block;*/
+    /*content: " ";*/
+    /*width: 0.3rem;*/
+    /*height:0.6rem;*/
+    /*background: url("./img/dynamic-icon2.png") no-repeat right center;*/
+    /*background-size: cover;*/
+    /*}*/
+    .fruit-my-inner:before{
+        display: block;
+        content: " ";
+        width: 1.25rem;
+        height:1.25rem;
+        background: url("./img/fruitsale1.png") no-repeat center center;
+        background-size: cover;
+        margin-right: 0.5rem;
+    }
+    .fruit-my-inner .item-title{
+        flex: 1;
+        font-size: 0.7rem;
+        color: #333;
+    }
+    .fruit-sale-tel{
+        text-align: right;
+    }
+    .fruit-sale-tel-wrap{
+        flex-direction: column;
+    }
+    .fruit-sale-tel-wrap .label{
+        font-size: 0.7rem;
+        color: #333;
+    }
+    .fruit-sale-tel-wrap .fruit-sale-tel{
+        font-size: 0.7rem;
+        color: #333;
+    }
+    .fruit-sale-tel-bottom{
+        font-size:0.6rem;
+        color: #333;
+    }
+    .fruit-sale-tel-top{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .fruit-list-wrap-list{
+        background-color: #fff;
+    }
+    .fruit-list-bottom span.already-shop{
+        font-size: 0.75rem;
+        color: #333;
+    }
+</style>
+<div class="content">
+    <section class="common-reutrn">
+        <a href="javascript:history.back(-1)" ></a>
+        <span>提交订单</span>
+    </section>
+    <div class="list-block">
+        <ul>
+            <li>
+                <div class="item-content item-link">
+                    <div class="item-media"><i class="icon icon-form-name"></i></div>
+                    <div class="icon-address-d"></div>
+                    <div class="item-inner fruit-sale-tel-wrap">
+                        <div class="fruit-sale-tel-top">
+                            <div class="item-title label">收货人：肖先生</div>
+                            <div class="item-input fruit-sale-tel">
+                                13569523641
+                            </div>
+                        </div>
+                        <div class="fruit-sale-tel-bottom">
+                            收货地址：重庆重庆市江北区沙坪坝白鹤林163号白鹤林163
+                            号白鹤林163号
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+<div class="space-div20"></div>
+    <div class="fruit-list-wrap">
+        <div class="fruit-list-wrap-list">
+            <div class="fruit-list-one">
+                <a>
+                    <img src="img/fruit-list1.jpg" />
+                </a>
+                <div class="fruit-list-content">
+                    <a>贵妃笑荔枝好吃小米米贵妃笑荔枝好</a>
+                    <div class="fruit-list-bottom">
+                        <div class="fruit-list-bottom-left"><span class="money-flag">¥</span><span class="money-ten">12.</span><span class="money-one">90</span></div><span class="already-shop">x3</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fruit-sale-form">
+        <div class="list-block">
+            <ul>
+                <li>
+                    <div class="item-content">
+                        <div class="item-media"><i class="icon icon-form-name"></i></div>
+                        <div class="item-inner">
+                                <div class="item-title label">配送费用</div>
+                                <div class="item-input fruit-sale-tel account-money">
+                                    ￥12
+                                </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-content item-link">
+                        <div class="item-media"><i class="icon icon-form-calendar"></i></div>
+                        <div class="item-inner">
+                            <div class="item-title label">配送日期</div>
+                            <div class="item-input">
+                                <input type="date" placeholder="Birth day" value="2014-04-30" >
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-content">
+                        <div class="item-media"><i class="icon icon-form-name"></i></div>
+                        <div class="item-inner">
+                            <div class="item-title label">配送方式</div>
+                            <div class="item-input fruit-sale-tel account-fangshi">
+                                货到支付运费
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-content">
+                        <div class="item-media"><i class="icon icon-form-name"></i></div>
+                        <div class="item-inner">
+                            <div class="item-title label">预估运费</div>
+                            <div class="item-input fruit-sale-tel account-yugu">
+                                ￥30
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="align-top">
+                    <div class="item-content">
+                        <div class="item-media"><i class="icon icon-form-name"></i></div>
+                        <div class="item-inner">
+                            <div class="item-title label">备注：</div>
+                            <div class="item-input">
+                                <input type="text" placeholder="(选填）填写你要说的话" style="text-align: left">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-content">
+                        <div class="item-content-last">共2件商品  小计：<span>￥118.00</span></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<nav class="bar bar-tab shopcart-button">
+    <div class="shopcart-all-num">合计金额:<span>￥328.90</span></div>
+    <a class="go-buy">下一步</a>
+</nav>
+<script>
+
+</script>
+</body>
+</html>

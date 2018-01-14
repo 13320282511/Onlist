@@ -1,5 +1,5 @@
 body {
-    font-family: '微软雅黑', "Helvetica Neue", Helvetica, sans-serif;
+    font-family: "PingFang SC","微软雅黑", "Helvetica Neue", Helvetica, sans-serif;
     background-color: #f4f4f4;
 }
 
@@ -1651,4 +1651,215 @@ width: 4.5rem;
     margin-top: -2px;
     position: relative;
     z-index: 333;
+}
+.icon-address-d{
+    width: 0.825rem;
+    height: 1.125rem;
+    background: url("../img/icon8.png") no-repeat center center;
+    background-size: contain;
+    margin-left: 0.75rem;
+    margin-right: 0.9rem;
+}
+.account-money{
+    font-size: 0.65rem;
+    color: #ff8a00;
+}
+.account-fangshi{
+    font-size: 0.65rem;
+    color:#333;
+}
+.account-yugu{
+    font-size: 0.65rem;
+    color: #999;
+}
+.item-content-last{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 0.6rem;
+    color: #333;
+    padding: 0 0.75rem;
+}
+.item-content-last span{
+font-size: 0.75rem;
+    color: #ff8a00;
+}
+.pay-wrap{
+height: 3.5rem;
+    display: flex;
+    align-items: center;
+    padding: 0 0.875rem 0 0.75rem;
+    background-color: #fff;
+    border-bottom: 1px solid #e8e8e8;
+}
+.pay-innner{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.pay-innner:after{
+    display: block;
+    content: " ";
+    width: 0.875rem;
+    height: 0.875rem;
+    background:url("../img/icon-address1.png") no-repeat center center;
+    background-size: contain;
+
+}
+.pay-innner.no-select:after{
+    display: block;
+    content: " ";
+    width: 0.875rem;
+    height: 0.875rem;
+    background:url("../img/icon-address2.png") no-repeat center center;
+    background-size: contain;
+
+}
+.pay-innner>a{
+display: block;
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.75rem;
+}
+.pay-innner>a img{
+display: block;
+    width: 100%;
+}
+.pay-inner-ds{
+flex: 1;
+}
+.pay-inner-ds>h3{
+padding: 0;
+    margin: 0;
+    font-size: 0.75rem;
+    color: #333;
+    font-weight: 100;
+}
+.pay-inner-ds>a{
+font-size: 0.6rem;
+    color: #999;
+}
+.pay-inner-ds>h3 span{
+border: 1px solid #52b456;
+    color: #52b456;
+    font-size: 0.5rem;
+    border-radius: 3px;
+    margin-left: 0.4rem;
+    text-align: center;
+    padding: 0.1rem 0.25rem;
+
+}
+.my-fruit-order-num{
+    /*font-family: "PingFang SC Regular";*/
+display: flex;
+    height: 2.2rem;
+    align-items: center;
+    padding: 0 0.75rem;
+    border-bottom: 1px solid #e8e8e8;
+}
+.my-fruit-order-num>span.my-fruit-order-num-span1{
+font-size: 0.6rem;
+    color: #333;
+    flex: 1;
+}
+.my-fruit-order-num>span.my-fruit-order-num-span2{
+background-color: #52b456;
+    color: #fff;
+    font-size: 0.6rem;
+    border-radius: 3px;
+    padding: 0.2rem 0.45rem;
+    line-height: 1;
+}
+.my-fruit-order-num>span.my-fruit-order-num-span3{
+    background-color: #ff8a00;
+    color: #fff;
+    font-size: 0.6rem;
+    border-radius: 3px;
+    padding: 0.2rem 0.45rem;
+    line-height: 1;
+}
+.my-fruit-order-num>a.my-fruit-order-num-a2{
+    background-color: #fff;
+    color: #ff8a00;
+    border: 1px solid #ff8a00;
+    border-radius: 30px;
+    width: 3.625rem;
+    height: 1.25rem;
+    line-height: 1.25rem;
+    text-align: center;
+    font-size: 0.6rem;
+}
+.shipping-ct{
+     height: 3.4rem;
+     padding: 0 0.75rem;
+     background-color: #fff;
+     border-top:1px solid #e8e8e8;
+ }
+.shipping-ct1{
+    height: 2.05rem;
+    padding: 0 0.75rem;
+    background-color: #fff;
+    border-top:1px solid #e8e8e8;
+}
+.shipping-ct-inner{
+display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+.shipping-ct-inner>span{
+    line-height: 1.2rem;
+color: #666;
+    font-size:0.65rem;
+}
+.shipping-ct-total{
+padding: 0 0.75rem;
+    background-color: #fff;
+    border-top:1px solid #e8e8e8;
+    border-bottom:1px solid #e8e8e8;
+
+}
+.shipping-ct-total-inner{
+    border-bottom:1px solid #e8e8e8;
+    height:2.25rem;
+    display: flex;
+    align-items: center;
+    font-size: 0.65rem;
+    color: #666;
+}
+.shipping-ct-total-inner>span:first-child{
+flex: 1;
+}
+.shipping-ct-total-inner>span{
+
+}
+.shipping-ct-total-inner>span.spanshi{
+justify-content: flex-end;
+    text-align: right;
+}
+.shipping-ct-total-inner>span.spanshi font{
+color: #f44336;
+}
+.bt-bottom{
+    border-bottom:1px solid #e8e8e8;
+}
+.no-dingdan{
+    background-color: #fff;
+    border-top:1px solid #e8e8e8;
+    height: 2.5rem;
+    padding: 0 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.no-dingdan>a{
+    font-size: 0.6rem;
+    color: #333;
+    border-radius: 30px;
+    width: 3.75rem;
+    height: 1.25rem;
+    border: 1px solid #e8e8e8;
+    text-align: center;
+    line-height: 1.25rem;
 }
