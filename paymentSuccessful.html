@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport"
+          content="initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, user-scalable=no">
+    <link href="css/sm.css" rel="stylesheet">
+    <link href="css/swiper.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <script type="text/javascript" src="js/zepto.min.js"></script>
+    <script>
+        $.config = {router: false}
+    </script>
+    <script type="text/javascript" src="js/sm.min.js"></script>
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+    <script type="text/javascript" src="js/leftHua.js"></script>
+</head>
+<body>
+<style type="text/css">
+    .content{
+        background-color: #f4f4f4;
+    }
+    .list-block{
+        margin: 0;
+    }
+    .list-block li{
+
+    }
+    .list-block .item-content{
+        padding-left: 0;
+    }
+    .list-block .item-inner:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        right: auto;
+        top: auto;
+        height: 0;
+        width: 0;
+        background-color: #e7e7e7;
+        display: block;
+        z-index: 15;
+        -webkit-transform-origin: 50% 100%;
+        transform-origin: 50% 100%;
+    }
+    @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+        .list-block .item-inner:after {
+            -webkit-transform: scaleY(0.5);
+            transform: scaleY(0.5);
+        }
+    }
+    @media only screen and (-webkit-min-device-pixel-ratio: 3) {
+        .list-block .item-inner:after {
+            -webkit-transform: scaleY(0.33);
+            transform: scaleY(0.33);
+        }
+    }
+    .list-block .item-content:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        right: auto;
+        top: auto;
+        height: 1px;
+        width: 100%;
+        background-color: #e7e7e7;
+        display: block;
+        z-index: 15;
+        -webkit-transform-origin: 50% 100%;
+        transform-origin: 50% 100%;
+    }
+    @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+        .list-block .item-content:after {
+            -webkit-transform: scaleY(0.5);
+            transform: scaleY(0.5);
+        }
+    }
+    @media only screen and (-webkit-min-device-pixel-ratio: 3) {
+        .list-block .item-content:after {
+            -webkit-transform: scaleY(0.33);
+            transform: scaleY(0.33);
+        }
+    }
+    .list-block .item-title.label{
+        font-size: 0.7rem;
+        color:#333;
+    }
+    .list-block input[type="text"], .list-block input[type="password"], .list-block input[type="search"], .list-block input[type="email"], .list-block input[type="tel"], .list-block input[type="url"], .list-block input[type="date"], .list-block input[type="datetime-local"], .list-block input[type="time"], .list-block input[type="number"], .list-block select, .list-block textarea{
+        font-size: 0.65rem;
+        color: #333;
+        text-align: right;
+    }
+    /*.item-input input:after{*/
+    /*display: block;*/
+    /*content: " ";*/
+    /*width: 0.3rem;*/
+    /*height:0.6rem;*/
+    /*background: url("./img/dynamic-icon2.png") no-repeat right center;*/
+    /*background-size: cover;*/
+    /*}*/
+    /*.fruit-sale-lef:after{*/
+    /*display: block;*/
+    /*content: " ";*/
+    /*width: 0.3rem;*/
+    /*height:0.6rem;*/
+    /*background: url("./img/dynamic-icon2.png") no-repeat right center;*/
+    /*background-size: cover;*/
+    /*}*/
+    .fruit-my-inner:before{
+        display: block;
+        content: " ";
+        width: 1.25rem;
+        height:1.25rem;
+        background: url("./img/fruitsale1.png") no-repeat center center;
+        background-size: cover;
+        margin-right: 0.5rem;
+    }
+    .fruit-my-inner .item-title{
+        flex: 1;
+        font-size: 0.7rem;
+        color: #333;
+    }
+    .fruit-sale-tel{
+        text-align: right;
+    }
+    .fruit-sale-tel-wrap{
+        flex-direction: column;
+    }
+    .fruit-sale-tel-wrap .label{
+        font-size: 0.65rem;
+        color: #333;
+    }
+    .fruit-sale-tel-wrap .fruit-sale-tel{
+        font-size: 0.7rem;
+        color: #333;
+    }
+    .fruit-sale-tel-bottom{
+        font-size:0.6rem;
+        color: #333;
+    }
+    .fruit-sale-tel-top{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .fruit-list-wrap-list{
+        background-color: #fff;
+    }
+    .fruit-list-bottom span.already-shop{
+        font-size: 0.75rem;
+        color: #333;
+    }
+</style>
+<div class="content">
+    <section class="common-reutrn">
+        <a href="javascript:history.back(-1)" ></a>
+        <span>支付成功</span>
+    </section>
+    <div class="pay-sucess-bg">
+        <div class="pay-sucess-inner">
+            <div class="pay-sucess-left-img"><img src="./img/fruitsucess4.png"/> </div>
+            <div class="pay-sucess-right">
+                <a>支付成功</a>
+                <span>支付时间：2018-02-14 13:30:30</span>
+            </div>
+        </div>
+    </div>
+    <div class="fruit-sale-form">
+        <div class="list-block">
+            <ul>
+                <li>
+                    <div class="item-content">
+                        <div class="item-media"><i class="icon icon-form-name"></i></div>
+                        <div class="item-inner">
+                            <div class="item-title label">订单号</div>
+                            <div class="item-input fruit-sale-tel account-fangshi">
+                                4864648946168744987
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-content">
+                        <div class="item-media"><i class="icon icon-form-name"></i></div>
+                        <div class="item-inner">
+                                <div class="item-title label">实付金额</div>
+                                <div class="item-input fruit-sale-tel account-money">
+                                    ￥358.00
+                                </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-content">
+                        <div class="item-media"><i class="icon icon-form-name"></i></div>
+                        <div class="item-inner">
+                            <div class="item-title label">支付方式</div>
+                            <div class="item-input fruit-sale-tel account-fangshi">
+                                在线支付
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<nav class="bar bar-tab fruit-sale-button">
+    <a>继续购物</a>
+</nav>
+<script>
+
+</script>
+</body>
+</html>

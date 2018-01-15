@@ -30,9 +30,9 @@
         font-size:0.75rem;
     }
     .buttons-tab .button.active{
-color: #ff8a00;
+color: #52b456;
         border-color:#e8e8e8 ;
-        border-bottom: 0.1rem solid #ff8a00;
+        border-bottom: 0.1rem solid #52b456;
     }
     .buttons-tab>a.button{
         border-right:1px solid #e8e8e8;
@@ -89,16 +89,20 @@ color: #ff8a00;
         color: #333;
         font-size: 0.75rem;
     }
+    .caizai{
+        display: inline-block;
+        margin-left: 0.75rem;
+    }
 </style>
 <div class="content">
     <section class="common-reutrn">
         <a href="javascript:history.back(-1)" ></a>
-        <span>我的水果订单</span>
+        <span>我的果树订单</span>
     </section>
     <div class="buttons-tab">
         <a href="#tab1" class="tab-link active button">全部</a>
-        <a href="#tab2" class="tab-link button">已发货</a>
-        <a href="#tab3" class="tab-link button">未发货</a>
+        <a href="#tab2" class="tab-link button">投资型果树</a>
+        <a href="#tab3" class="tab-link button">消费型果树</a>
     </div>
     <div class="content-block">
         <div class="tabs">
@@ -107,7 +111,7 @@ color: #ff8a00;
                     <div class="fruit-list-wrap">
                         <div class="my-fruit-order-num">
                             <span class="my-fruit-order-num-span1">订单号：4864867489</span>
-                            <span class="my-fruit-order-num-span2">已发货</span>
+                            <span class="my-fruit-order-num-span5">代付款</span>
                         </div>
                         <div class="fruit-list-wrap-list">
                             <div class="fruit-list-one">
@@ -115,40 +119,16 @@ color: #ff8a00;
                                     <img src="img/fruit-list1.jpg" />
                                 </a>
                                 <div class="fruit-list-content">
-                                    <a>贵妃笑荔枝好吃小米米贵妃笑荔枝好</a>
+                                    <a><span class="touzi">投资</span>贵妃笑荔枝好吃小米米贵妃笑荔枝好</a>
                                     <div class="fruit-list-bottom">
-                                        <div class="fruit-list-bottom-left"><span class="money-flag">¥</span><span class="money-ten">12.</span><span class="money-one">90</span></div><span class="already-shop">x3</span>
+                                        <div class="fruit-list-bottom-left"><span class="money-flag">¥</span><span class="money-ten">12.</span><span class="money-one">90</span><span class="caizai"><a class="no-caizai">预计136天后可采摘</a></span></div><span class="already-shop">x3</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="my-fruit-order-num">
                             <span class="my-fruit-order-num-span1">合计：￥298.00</span>
-                            <a class="my-fruit-order-num-a2">查看详情</a>
-                        </div>
-                    </div>
-                    <div class="space-div20"></div>
-                    <div class="fruit-list-wrap">
-                        <div class="my-fruit-order-num">
-                            <span class="my-fruit-order-num-span1">订单号：4864867489</span>
-                            <span class="my-fruit-order-num-span3">未发货</span>
-                        </div>
-                        <div class="fruit-list-wrap-list">
-                            <div class="fruit-list-one">
-                                <a>
-                                    <img src="img/fruit-list1.jpg" />
-                                </a>
-                                <div class="fruit-list-content">
-                                    <a>贵妃笑荔枝好吃小米米贵妃笑荔枝好</a>
-                                    <div class="fruit-list-bottom">
-                                        <div class="fruit-list-bottom-left"><span class="money-flag">¥</span><span class="money-ten">12.</span><span class="money-one">90</span></div><span class="already-shop">x3</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="my-fruit-order-num">
-                            <span class="my-fruit-order-num-span1">合计：￥298.00</span>
-                            <a class="my-fruit-order-num-a2">查看详情</a>
+                            <a class="my-fruit-order-num-a2">去付款</a>
                         </div>
                     </div>
                     <div class="space-div20"></div>
@@ -157,14 +137,27 @@ color: #ff8a00;
                             <span class="my-fruit-order-num-span1">订单号：4864867489</span>
                         </div>
                         <div class="fruit-list-wrap-list">
+                            <div class="fruit-list-one" style="border-bottom: none;">
+                                <a>
+                                    <img src="img/fruit-list1.jpg" />
+                                </a>
+                                <div class="fruit-list-content">
+                                    <a><span class="touzi">投资</span>贵妃笑荔枝好吃小米米贵妃笑荔枝好</a>
+                                    <div class="fruit-list-bottom">
+                                        <div class="fruit-list-bottom-left"><span class="money-flag">¥</span><span class="money-ten">12.</span><span class="money-one">90</span></div><span class="already-shop">x3</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fruit-list-wrap-list  before-boder">
                             <div class="fruit-list-one">
                                 <a>
                                     <img src="img/fruit-list1.jpg" />
                                 </a>
                                 <div class="fruit-list-content">
-                                    <a>贵妃笑荔枝好吃小米米贵妃笑荔枝好</a>
+                                    <a><span>消费</span>贵妃笑荔枝好吃小米米贵妃笑荔枝好</a>
                                     <div class="fruit-list-bottom">
-                                        <div class="fruit-list-bottom-left"><span class="money-flag">¥</span><span class="money-ten">12.</span><span class="money-one">90</span></div><span class="already-shop">x3</span>
+                                        <div class="fruit-list-bottom-left"><span class="money-flag">¥</span><span class="money-ten">12.</span><span class="money-one">90</span><span class="caizai"><a>可采摘</a></span></div><span class="already-shop">x3</span>
                                     </div>
                                 </div>
                             </div>
@@ -181,7 +174,7 @@ color: #ff8a00;
                     <div class="fruit-list-wrap">
                         <div class="my-fruit-order-num">
                             <span class="my-fruit-order-num-span1">订单号：4864867489</span>
-                            <span class="my-fruit-order-num-span2">已发货</span>
+                            <span class="my-fruit-order-num-span5">代付款</span>
                         </div>
                         <div class="fruit-list-wrap-list">
                             <div class="fruit-list-one">
@@ -189,16 +182,16 @@ color: #ff8a00;
                                     <img src="img/fruit-list1.jpg" />
                                 </a>
                                 <div class="fruit-list-content">
-                                    <a>贵妃笑荔枝好吃小米米贵妃笑荔枝好</a>
+                                    <a><span class="touzi">投资</span>贵妃笑荔枝好吃小米米贵妃笑荔枝好</a>
                                     <div class="fruit-list-bottom">
-                                        <div class="fruit-list-bottom-left"><span class="money-flag">¥</span><span class="money-ten">12.</span><span class="money-one">90</span></div><span class="already-shop">x3</span>
+                                        <div class="fruit-list-bottom-left"><span class="money-flag">¥</span><span class="money-ten">12.</span><span class="money-one">90</span><span class="caizai"><a class="no-caizai">预计136天后可采摘</a></span></div><span class="already-shop">x3</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="my-fruit-order-num">
                             <span class="my-fruit-order-num-span1">合计：￥298.00</span>
-                            <a class="my-fruit-order-num-a2">查看详情</a>
+                            <a class="my-fruit-order-num-a2">去付款</a>
                         </div>
                     </div>
                 </div>
@@ -208,7 +201,7 @@ color: #ff8a00;
                     <div class="fruit-list-wrap">
                         <div class="my-fruit-order-num">
                             <span class="my-fruit-order-num-span1">订单号：4864867489</span>
-                            <span class="my-fruit-order-num-span3">未发货</span>
+                            <span class="my-fruit-order-num-span5">代付款</span>
                         </div>
                         <div class="fruit-list-wrap-list">
                             <div class="fruit-list-one">
@@ -216,16 +209,16 @@ color: #ff8a00;
                                     <img src="img/fruit-list1.jpg" />
                                 </a>
                                 <div class="fruit-list-content">
-                                    <a>贵妃笑荔枝好吃小米米贵妃笑荔枝好</a>
+                                    <a><span>消费</span>贵妃笑荔枝好吃小米米贵妃笑荔枝好</a>
                                     <div class="fruit-list-bottom">
-                                        <div class="fruit-list-bottom-left"><span class="money-flag">¥</span><span class="money-ten">12.</span><span class="money-one">90</span></div><span class="already-shop">x3</span>
+                                        <div class="fruit-list-bottom-left"><span class="money-flag">¥</span><span class="money-ten">12.</span><span class="money-one">90</span><span class="caizai"><a>可采摘</a></span></div><span class="already-shop">x3</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="my-fruit-order-num">
                             <span class="my-fruit-order-num-span1">合计：￥298.00</span>
-                            <a class="my-fruit-order-num-a2">查看详情</a>
+                            <a class="my-fruit-order-num-a2">去付款</a>
                         </div>
                     </div>
                 </div>

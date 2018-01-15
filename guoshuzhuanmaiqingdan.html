@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport"
+          content="initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, user-scalable=no">
+    <link href="css/sm.css" rel="stylesheet">
+    <link href="css/swiper.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <script type="text/javascript" src="js/zepto.min.js"></script>
+    <script>
+        $.config = {router: false}
+    </script>
+    <script type="text/javascript" src="js/sm.min.js"></script>
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+    <script type="text/javascript" src="js/leftHua.js"></script>
+</head>
+<body>
+<style type="text/css">
+    .content{
+        background: #f4f4f4;
+        bottom: 0;
+    }
+    .buttons-tab .button{
+        height: 2.1rem;
+        line-height: 2.1rem;
+        border-bottom: 0.1rem solid transparent;
+        color: #333;
+        font-size:0.75rem;
+    }
+    .buttons-tab .button.active{
+        color: #ff8a00;
+        border-color:#e8e8e8 ;
+        border-bottom: 0.1rem solid #ff8a00;
+    }
+    .buttons-tab>a.button{
+        border-right:1px solid #e8e8e8;
+    }
+    .buttons-tab>a.button:last-child{
+        border-right:0;
+    }
+    .content-block{
+        margin: 0;
+        padding: 0;
+    }
+    .fruit-list-one > a{
+        margin-left: 0;
+    }
+    .fruit-list-one{
+        align-items: center;
+    }
+    .fruit-list-wrap-list{
+        position: relative;
+    }
+    .left-hua-btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top:0;
+        right:-2.75rem;
+        height: 100%;
+        width: 2.75rem;
+        background-color: #ff8a00;
+        color: #f7f7f7;
+        font-size: 0.6rem;
+
+    }
+    .fruit-list-content>a>span{
+        color:#fff;
+        font-size: 0.55rem;
+        background-color: #ff8a00;
+        border-radius: 3px;
+        padding: 0.1rem 0.25rem;
+        margin-right: 0.175rem;
+    }
+    .fruit-list-content>a>span.touzi{
+        background-color: #52b456;
+    }
+    .fruit-list-wrap{
+        background-color: #fff;
+    }
+    .fruit-list-one{
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+    }
+    .fruit-list-bottom span.already-shop{
+        color: #333;
+        font-size: 0.75rem;
+    }
+    .caizai {
+        flex: 1;
+        display: flex;
+        align-items: flex-end;
+    }
+</style>
+<div class="content">
+    <section class="common-reutrn">
+        <a href="javascript:history.back(-1)" ></a>
+        <span>果树转卖申请清单</span>
+    </section>
+    <div class="content-block">
+        <div class="content-block">
+            <div class="fruit-list-wrap">
+                <div class="my-fruit-order-num">
+                    <span class="my-fruit-order-num-span1">申请时间：2018-02-14  12：30：30</span>
+                    <span class="my-fruit-order-num-span8">已转卖</span>
+                </div>
+                <div class="fruit-list-wrap-list">
+                    <div class="fruit-list-one">
+                        <a>
+                            <img src="img/fruit-list1.jpg" />
+                        </a>
+                        <div class="fruit-list-content">
+                            <a><span>消费</span>贵妃笑荔枝好吃小米米贵妃笑荔枝好</a>
+                            <div class="fruit-list-bottom">
+                                <div class="caizai"><a class="caizhai-style">已成长：1年123天</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="space-div20"></div>
+                    <div class="fruit-list-wrap">
+                        <div class="my-fruit-order-num">
+                            <span class="my-fruit-order-num-span1">申请时间：2018-02-14  12：30：30</span>
+                            <span class="my-fruit-order-num-span2">已申请</span>
+                        </div>
+                        <div class="fruit-list-wrap-list">
+                            <div class="fruit-list-one">
+                                <a>
+                                    <img src="img/fruit-list1.jpg" />
+                                </a>
+                                <div class="fruit-list-content">
+                                    <a><span>消费</span>贵妃笑荔枝好吃小米米贵妃笑荔枝好</a>
+                                    <div class="fruit-list-bottom">
+                                        <div class="caizai"><a class="caizhai-style">已成长：1年123天</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="space-div20"></div>
+            <div class="fruit-list-wrap">
+                <div class="my-fruit-order-num">
+                    <span class="my-fruit-order-num-span1">申请时间：2018-02-14  12：30：30</span>
+                    <span class="my-fruit-order-num-span2">已申请</span>
+                </div>
+                <div class="fruit-list-wrap-list">
+                    <div class="fruit-list-one">
+                        <a>
+                            <img src="img/fruit-list1.jpg" />
+                        </a>
+                        <div class="fruit-list-content">
+                            <a><span class="touzi">投资</span>贵妃笑荔枝好吃小米米贵妃笑荔枝好</a>
+                            <div class="fruit-list-bottom">
+                                <div class="caizai"><a class="caizhai-style">已成长：1年123天</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                </div>
+    </div>
+</div>
+</body>
+</html>

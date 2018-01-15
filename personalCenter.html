@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport"
+          content="initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, user-scalable=no">
+    <link href="css/sm.css" rel="stylesheet">
+    <link href="css/swiper.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <script type="text/javascript" src="js/zepto.min.js"></script>
+    <script>
+        $.config = {router: false}
+    </script>
+    <script type="text/javascript" src="js/sm.min.js"></script>
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+</head>
+<body>
+<style type="text/css">
+    .content{
+    }
+    .list-block{
+        margin: 0;
+    }
+    .list-block li{
+
+    }
+    .list-block .item-content{
+        padding-left: 0;
+    }
+    .list-block .item-inner:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        right: auto;
+        top: auto;
+        height: 0;
+        width: 0;
+        background-color: #e7e7e7;
+        display: block;
+        z-index: 15;
+        -webkit-transform-origin: 50% 100%;
+        transform-origin: 50% 100%;
+    }
+    .list-block .item-content:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        right: auto;
+        top: auto;
+        height: 1px;
+        width: 100%;
+        background-color: #e7e7e7;
+        display: block;
+        z-index: 15;
+        -webkit-transform-origin: 50% 100%;
+        transform-origin: 50% 100%;
+    }
+
+    .list-block .item-title.label{
+        font-size: 0.65rem;
+        color:#000;
+    }
+    .fruit-my-inner .item-title{
+        flex: 1;
+        font-size: 0.7rem;
+        color: #333;
+    }
+    .fruit-sale-tel-wrap .label{
+        font-size: 0.7rem;
+        color: #333;
+    }
+    .fruit-sale-tel-wrap .fruit-sale-tel{
+        font-size: 0.7rem;
+        color: #333;
+    }
+
+</style>
+<div class="content">
+    <section class="common-reutrn">
+        <a href="javascript:history.back(-1)" ></a>
+        <span>个人中心</span>
+    </section>
+    <div class="person-center-top">
+        <a></a>
+        <div class="person-center-ab">
+            <div class="person-center-ab-icon"><img src="./img/icon-person10.png"/></div>
+            <span>何三娃</span>
+            <div class="person-center-ab-title"><img src="./img/icon-person11.png"/> </div>
+            <div class="person-center-ab-tel">13983001234</div>
+        </div>
+    </div>
+    <div class="person-bg110"></div>
+    <div class="space-div20"></div>
+    <div class="list-block">
+        <ul>
+            <!-- Text inputs -->
+            <li>
+                <div class="item-content item-link">
+                    <div class="item-media"><i class="icon icon-form-name"></i></div>
+                    <div class="item-inner fruit-my-inner person-myjingyin">
+                        <div class="item-title label">我的经营</div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="item-content item-link">
+                    <div class="item-media"><i class="icon icon-form-name"></i></div>
+                    <div class="item-inner fruit-my-inner person-mydingdan">
+                        <div class="item-title label">我的水果订单</div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="item-content item-link">
+                    <div class="item-media"><i class="icon icon-form-name"></i></div>
+                    <div class="item-inner fruit-my-inner person-mydingdanguoshu">
+                        <div class="item-title label">我的果树订单</div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="item-content item-link">
+                    <div class="item-media"><i class="icon icon-form-name"></i></div>
+                    <div class="item-inner fruit-my-inner person-shuiguoshen">
+                        <div class="item-title label">水果发售申请订单</div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="item-content item-link">
+                    <div class="item-media"><i class="icon icon-form-name"></i></div>
+                    <div class="item-inner fruit-my-inner person-guoshuzhuanmai">
+                        <div class="item-title label">我的果树转卖清单</div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="item-content item-link">
+                    <div class="item-media"><i class="icon icon-form-name"></i></div>
+                    <div class="item-inner fruit-my-inner person-tongzhi">
+                        <div class="item-title label">消息通知</div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="item-content item-link">
+                    <div class="item-media"><i class="icon icon-form-name"></i></div>
+                    <div class="item-inner fruit-my-inner person-guanlinian">
+                        <div class="item-title label">果树管理年费</div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="item-content item-link">
+                    <div class="item-media"><i class="icon icon-form-name"></i></div>
+                    <div class="item-inner fruit-my-inner person-myshouhuo">
+                        <div class="item-title label">我的收货地址</div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="space-div30"></div>
+</div>
+<nav class="bar bar-tab">
+    <a class="first tab-item external" href="#">
+        <div><img src="img/icon-fixed1.png"></div>
+        <span class="tab-label-icon">首页</span>
+    </a>
+    <a class="second tab-item external" href="#">
+        <div><img src="img/icon-fixed2.png"></div>
+        <span class="tab-label-icon">交易</span>
+    </a>
+    <a class="three tab-item external" href="#">
+        <div><img src="img/icon-fixed3.png"></div>
+        <span class="tab-label-icon">果园</span>
+    </a>
+    <a class="four tab-item external" href="#">
+        <div><img src="img/icon-fixed4.png"></div>
+        <span class="tab-label-icon">购物车</span>
+    </a>
+    <a class="five tab-item external active" href="#">
+        <div><img src="img/icon-fixed55.png"></div>
+        <span class="tab-label-icon">我的</span>
+    </a>
+</nav>
+</body>
+</html>

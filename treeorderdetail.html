@@ -132,23 +132,14 @@ color: #ff8a00;
 <div class="content">
     <section class="common-reutrn">
         <a href="javascript:history.back(-1)" ></a>
-        <span>水果订单详情</span>
+        <span>果树订单详情</span>
     </section>
-    <div class="fruit-sucess-bg">
-        <div class="fruit-sucess-inner">
-            <div class="fruit-sucess-left-img"><img src="./img/fruitsucess2.png"/> </div>
-            <div class="fruit-sucess-right">
-                <a>未发货</a>
-                <span>您的订单已提交成功，正在等待发货</span>
-            </div>
-        </div>
-    </div>
+
     <div class="list-block">
         <ul>
             <li>
-                <div class="item-content item-link">
+                <div class="item-content">
                     <div class="item-media"><i class="icon icon-form-name"></i></div>
-                    <div class="icon-address-d"></div>
                     <div class="item-inner fruit-sale-tel-wrap">
                         <div class="fruit-sale-tel-top">
                             <div class="item-title label">收货人：肖先生</div>
@@ -156,14 +147,22 @@ color: #ff8a00;
                                 13569523641
                             </div>
                         </div>
-                        <div class="fruit-sale-tel-bottom">
-                            收货地址：重庆重庆市江北区沙坪坝白鹤林163号白鹤林163
-                            号白鹤林163号
-                        </div>
                     </div>
                 </div>
             </li>
         </ul>
+    </div>
+    <div class="fruit-income">
+        <div class="fruit-income-inner">
+            <div class="fruit-income-output">
+                <span>89</span>
+                <a>预计年产出(kg)</a>
+            </div>
+            <div class="fruit-income-money">
+                <span>120000</span>
+                <a>预计年收益(￥)</a>
+            </div>
+        </div>
     </div>
     <div class="space-div20"></div>
     <div class="content-block">
@@ -171,17 +170,13 @@ color: #ff8a00;
             <div id="tab1" class="tab active">
                 <div class="content-block">
                     <div class="fruit-list-wrap">
-                        <div class="my-fruit-order-num">
-                            <span class="my-fruit-order-num-span1">订单号：4864867489</span>
-                            <span class="my-fruit-order-num-span3">未发货</span>
-                        </div>
                         <div class="fruit-list-wrap-list">
                             <div class="fruit-list-one">
                                 <a>
                                     <img src="img/fruit-list1.jpg" />
                                 </a>
                                 <div class="fruit-list-content">
-                                    <a>贵妃笑荔枝好吃小米米贵妃笑荔枝好</a>
+                                    <a><span class="touzi">投资</span>贵妃笑荔枝好吃小米米贵妃笑荔枝好</a>
                                     <div class="fruit-list-bottom">
                                         <div class="fruit-list-bottom-left"><span class="money-flag">¥</span><span class="money-ten">12.</span><span class="money-one">90</span></div><span class="already-shop">x3</span>
                                     </div>
@@ -205,17 +200,15 @@ color: #ff8a00;
             <span>支付方式：在线支付</span>
         </div>
     </div>
-    <div class="shipping-ct bt-bottom">
-        <div class="shipping-ct-inner">
-            <span>物流公司：顺丰</span>
-            <span>物流方式：货到支付运费</span>
-        </div>
-    </div>
     <div class="space-div20"></div>
     <div class="shipping-ct-total">
-        <div class="shipping-ct-total-inner">
+        <div class="shipping-ct-total-inner" style="border-bottom: none;height: 1.75rem">
             <span>商品总额</span>
             <span>￥138.00</span>
+        </div>
+        <div class="shipping-ct-total-inner" style="height: 1.75rem;">
+            <span>管理年费</span>
+            <span>￥0.00</span>
         </div>
         <div class="shipping-ct-total-inner">
             <span class="spanshi">实付款：<font>￥143.00</font></span>
@@ -223,25 +216,8 @@ color: #ff8a00;
     </div>
     <div class="space-div20"></div>
     <div class="no-dingdan">
-        <a id="show-totast">取消订单</a>
+        <a>果树退种</a>
     </div>
 </div>
-<script type="text/javascript">
-    $(function(){
-        document.querySelector('#show-totast').addEventListener('click',function(e){
-            var modal = $.modal({
-                title: '取消订单',
-                text: '您已成功取消订单',
-                afterText:  '3s后将自动跳转到个人中心',
-                buttons: [
-                ]
-            })
-            var lope = setTimeout(function () {
-                clearTimeout(lope);
-                $.closeModal(modal);
-            },3000)
-        })
-    })
-</script>
 </body>
 </html>

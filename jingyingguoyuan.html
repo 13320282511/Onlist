@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport"
+          content="initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, user-scalable=no">
+    <link href="css/sm.css" rel="stylesheet">
+    <link href="css/swiper.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <script type="text/javascript" src="js/zepto.min.js"></script>
+    <script>
+        $.config = {router: false}
+    </script>
+    <script type="text/javascript" src="js/sm.min.js"></script>
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+</head>
+<body>
+<style type="text/css">
+</style>
+<div class="content">
+    <section class="common-reutrn">
+        <a href="javascript:history.back(-1)"></a>
+        <span>经营果园</span>
+    </section>
+    <div class="jy-guoyuan">
+        <img src="./img/jingyingguoyuan.jpg"/>
+    </div>
+    <div class="space-div20"></div>
+    <div class="dynamic-information">
+        <div class="dynamic-information-top">
+            <div class="dynamic-information-ds">
+                <h3>各类水果收购价格走势表</h3>
+            </div>
+        </div>
+    </div>
+    <div class="jy-guoyuan-sw">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./img/jyguo2.png" alt=""></div>
+                <div class="swiper-slide"><img src="./img/jyguo2.png" alt=""></div>
+                <div class="swiper-slide"><img src="./img/jyguo2.png" alt=""></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <div class="space-div20"></div>
+    <div class="dynamic-information">
+        <div class="dynamic-information-top">
+            <div class="dynamic-information-ds">
+                <h3>经营管理</h3>
+            </div>
+        </div>
+    </div>
+    <div class="nav-icon">
+        <a>
+            <img src="img/jyguan3.png">
+            <span>水果发售</span>
+        </a>
+        <a>
+            <img src="img/jyguan4.png">
+            <span>果树转卖</span>
+        </a>
+        <a>
+            <img src="img/jyguan5.png">
+            <span>果树退种</span>
+        </a>
+    </div>
+    <div class="space-div20"></div>
+    <div class="dynamic-information">
+        <div class="dynamic-information-top">
+            <div class="dynamic-information-ds">
+                <h3>年营收数据统计</h3>
+            </div>
+        </div>
+    </div>
+    <div class="year-total-num">
+        <div class="year-total-num-list">
+            <ul class="year-total-num-list-ul">
+                <li>
+                    果树总数：16棵
+                </li>
+                <li>
+                    转卖果树：12棵
+                </li>
+                <li>
+                    出售水果：60斤
+                </li>
+                <li>
+                    自销水果：20斤
+                </li>
+            </ul>
+        </div>
+        <div class="year-total-num-list-one">
+            <div class="year-total-num-list-one-dan">苹果树</div>
+            <ul class="year-total-num-list-ul">
+                <li>
+                    果树总数：16棵
+                </li>
+                <li>
+                    转卖果树：12棵
+                </li>
+                <li>
+                    出售水果：60斤
+                </li>
+                <li>
+                    自销水果：20斤
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script>
+    $(function () {
+        var swiper = new Swiper('.swiper-container', {
+            pagination: {
+                el: '.swiper-pagination'
+            },
+            autoplay: {
+                delay: 1000,
+                disableOnInteraction:false
+            }
+        });
+    });
+</script>
+</body>
+</html>
