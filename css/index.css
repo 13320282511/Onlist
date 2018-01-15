@@ -29,7 +29,12 @@ body {
     background: url("../img/icon-return.png") no-repeat left center;
     background-size: contain;
 }
-
+.common-reutrn > a.save-a {
+width: auto;
+    background: transparent;
+    color: #fff;
+    font-size: 0.7rem;
+}
 .content.content-fruit {
     bottom: 0;
 }
@@ -462,11 +467,12 @@ body {
 .fruit-list-bottom-left span.vip {
     display: inline-block;
     width: 1.125rem;
-    height: 0.635rem;
+    /*height: 0.635rem;*/
     border-radius: 2px;
     background-color: #ff8a00;
     text-align: center;
-    line-height: 0.635rem;
+    /*line-height: 0.635rem;*/
+    line-height: 1.13;
     font-size: 0.55rem;
     color: #fff;
     margin-right: 0.25rem;
@@ -2473,4 +2479,32 @@ margin:0;
 .vip-fuli-img img{
     display: block;
     width: 100%;
+}
+.edite-icon{
+    width: 3rem;
+}
+.edite-icon img{
+    display: block;
+    width: 100%;
+}
+.sex-select{
+display: flex;
+}
+.sex-select>span{
+width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 100%;
+    background-color: #fff;
+    border: 1px solid #e8e8e8;
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: 0.7rem;
+    color:#999;
+}
+.sex-select>span:last-child{
+    margin-left: 0.55rem;
+}
+.sex-select>span.active-span{
+background-color: #ff8a00;
+    color: #fff;
 }

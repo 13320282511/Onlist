@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport"
+          content="initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, user-scalable=no">
+    <link href="css/sm.css" rel="stylesheet">
+    <link href="css/swiper.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <script type="text/javascript" src="js/zepto.min.js"></script>
+    <script>
+        $.config = {router: false}
+    </script>
+    <script type="text/javascript" src="js/sm.min.js"></script>
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+    <script type="text/javascript" src="js/leftHua.js"></script>
+</head>
+<body>
+<style type="text/css">
+    .content{
+        background-color: #f4f4f4;
+    }
+    .list-block{
+        margin: 0;
+    }
+    .list-block li{
+
+    }
+    .list-block .item-content{
+        padding-left: 0;
+    }
+    .list-block .item-inner:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        right: auto;
+        top: auto;
+        height: 0;
+        width: 0;
+        background-color: #e7e7e7;
+        display: block;
+        z-index: 15;
+        -webkit-transform-origin: 50% 100%;
+        transform-origin: 50% 100%;
+    }
+    .list-block .item-content:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        right: auto;
+        top: auto;
+        height: 1px;
+        width: 100%;
+        background-color: #e7e7e7;
+        display: block;
+        z-index: 15;
+        -webkit-transform-origin: 50% 100%;
+        transform-origin: 50% 100%;
+    }
+    .list-block .item-title.label{
+        font-size: 0.7rem;
+        color:#333;
+    }
+    .list-block input[type="text"], .list-block input[type="password"], .list-block input[type="search"], .list-block input[type="email"], .list-block input[type="tel"], .list-block input[type="url"], .list-block input[type="date"], .list-block input[type="datetime-local"], .list-block input[type="time"], .list-block input[type="number"], .list-block select, .list-block textarea{
+        font-size: 0.65rem;
+        color: #333;
+        text-align: right;
+    }
+    .fruit-my-inner:before{
+        display: block;
+        content: " ";
+        width: 1.25rem;
+        height:1.25rem;
+        background: url("./img/fruitsale1.png") no-repeat center center;
+        background-size: cover;
+        margin-right: 0.5rem;
+    }
+    .fruit-my-inner .item-title{
+        flex: 1;
+        font-size: 0.7rem;
+        color: #333;
+    }
+    .fruit-sale-tel{
+        text-align: right;
+    }
+    .fruit-sale-tel-wrap{
+        flex-direction: column;
+    }
+    .fruit-sale-tel-wrap .label{
+        font-size: 0.7rem;
+        color: #333;
+    }
+    .fruit-sale-tel-wrap .fruit-sale-tel{
+        font-size: 0.7rem;
+        color: #333;
+    }
+    .fruit-sale-tel-bottom{
+        font-size:0.6rem;
+        color: #333;
+    }
+    .fruit-sale-tel-top{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .fruit-list-wrap-list{
+        background-color: #fff;
+    }
+    .fruit-list-bottom span.already-shop{
+        font-size: 0.75rem;
+        color: #333;
+    }
+    .mytree-acone{
+padding: 0 0.75rem 0.75rem;
+    }
+    .mytree-acone>h3{
+font-weight: 100;
+        font-size: 0.65rem;
+        color: #333;
+        height: 2.2rem;
+        line-height: 2.2rem;
+        margin: 0;
+        padding: 0;
+    }
+    .mytree-acone>p{
+      margin: 0;
+        background-color: #ecf8ed;
+        border-radius: 3px;
+        font-size: 0.6rem;
+        color: #333;
+        line-height: 1rem;
+        padding: 0.375rem;
+    }
+    .mytree-acone>p>a{
+color: #52b456;
+       text-decoration: underline;
+    }
+    .mytree-acone>p>span{
+color: #ff8a00;
+    }
+    .caizai {
+        flex: 1;
+        display: flex;
+        align-items: flex-end;
+    }
+    .list-block .item-inner{
+        position: relative;
+    }
+</style>
+<div class="content">
+    <section class="common-reutrn">
+        <a href="javascript:history.back(-1)" ></a>
+        <span>编辑个人资料</span>
+        <a class="save-a">保存</a>
+    </section>
+
+    <div class="fruit-sale-form">
+        <div class="list-block">
+            <ul>
+                <li class="align-top">
+                    <div class="item-content item-link" style="height: 4.25rem; align-items: center">
+                        <div class="item-media"><i class="icon icon-form-name"></i></div>
+                        <div class="item-inner" style="align-items: center">
+                            <div class="item-title label">账户名</div>
+                            <div class="item-input">
+                                <div class="edite-icon">
+                                <img src="./img/edite-person.png"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-content">
+                        <div class="item-media"><i class="icon icon-form-name"></i></div>
+                        <div class="item-inner">
+                            <div class="item-title label">昵称</div>
+                            <div class="item-input">
+                                <input type="text" placeholder="这是我的昵称" style="text-align: left">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-content">
+                        <div class="item-media"><i class="icon icon-form-name"></i></div>
+                        <div class="item-inner">
+                            <div class="item-title label">性别</div>
+                            <div class="item-input">
+                                <input type="text" placeholder="" style="text-align: left" id="sex-select-id" value="男">
+                            </div>
+                            <div class="sex-select">
+                                <span class="active-span">男</span>
+                                <span>女</span>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-content">
+                        <div class="item-media"><i class="icon icon-form-name"></i></div>
+                        <div class="item-inner">
+                            <div class="item-title label">生日</div>
+                            <div class="item-input">
+                                <input type="text" placeholder="为保障您的权益，保存后不可修改" style="text-align: left">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-content">
+                        <div class="item-media"><i class="icon icon-form-name"></i></div>
+                        <div class="item-inner">
+                            <div class="item-title label">手机</div>
+                            <div class="item-input">
+                                <input type="text" placeholder="158****0543" style="text-align: left">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-content">
+                        <div class="item-media"><i class="icon icon-form-name"></i></div>
+                        <div class="item-inner">
+                            <div class="item-title label">学历</div>
+                            <div class="item-input">
+                                <input type="text" placeholder="大专" style="text-align: left">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script>
+$(function(){
+    var spanT = $('.sex-select span');
+var valuesex = $('#sex-select-id')
+    document.querySelector('.sex-select').addEventListener('click',function(e){
+        if(e.target.tagName.toLowerCase() == 'span'){
+            valuesex.val($(e.target).text());
+            if(e.target.classList.contains('active-span')){
+                return
+            }else{
+                for(var i = 0;i<spanT.length;i++) {
+                    spanT[i].classList.remove('active-span')
+                }
+                e.target.classList.add('active-span')
+            }
+        }
+//        if(e.target)
+    })
+})
+</script>
+</body>
+</html>
