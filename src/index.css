@@ -29,12 +29,14 @@ body {
     background: url("../img/icon-return.png") no-repeat left center;
     background-size: contain;
 }
+
 .common-reutrn > a.save-a {
-width: auto;
+    width: auto;
     background: transparent;
     color: #fff;
     font-size: 0.7rem;
 }
+
 .content.content-fruit {
     bottom: 0;
 }
@@ -415,7 +417,7 @@ width: auto;
 }
 
 .fruit-list-wrap {
-
+    background-color: #fff;
 }
 
 .fruit-list-wrap-list {
@@ -2064,9 +2066,11 @@ width: auto;
     font-size: 0.65rem;
     color: #666;
 }
+
 .shipping-ct-total-inner:last-child {
     border-bottom: none;
 }
+
 .shipping-ct-total-inner > span:first-child {
     flex: 1;
 }
@@ -2365,143 +2369,171 @@ width: auto;
 }
 
 .msg-tongzhi-detail > pre {
-font-size:0.65rem;
-    color:#666;
+    font-size: 0.65rem;
+    color: #666;
     line-height: 1rem;
     text-align: left;
 }
-.news-dongtai-detail{
+
+.news-dongtai-detail {
 
 }
-.news-dongtai-detail-img{
-height:10.65rem;
+
+.news-dongtai-detail-img {
+    height: 10.65rem;
 }
-.news-dongtai-detail-img img{
+
+.news-dongtai-detail-img img {
     display: block;
-    width:100%;
+    width: 100%;
 }
-.news-dongtai-dl-ct{
+
+.news-dongtai-dl-ct {
     padding: 0 0.75rem;
 }
-.news-dongtai-dl-ct>h3{
-    margin:0;
-    padding:0.75rem 0 0.5rem 0;
-    font-weight:100;
-    font-size:0.75rem;
-    color:#333;
-    line-height:0.9rem;
+
+.news-dongtai-dl-ct > h3 {
+    margin: 0;
+    padding: 0.75rem 0 0.5rem 0;
+    font-weight: 100;
+    font-size: 0.75rem;
+    color: #333;
+    line-height: 0.9rem;
 }
+
 .news-dongtai-dl-ct > pre {
-    font-size:0.65rem;
-    color:#666;
+    font-size: 0.65rem;
+    color: #666;
     line-height: 1rem;
     text-align: left;
 }
-.modal{
+
+.modal {
     width: 13rem;
     height: 12.5rem;
     background: url("../img/tanchuang.png") no-repeat center center;
     background-size: contain;
 }
-.modal-inner{
+
+.modal-inner {
     background: transparent;
-    font-size:0.65rem;
-    color:#333;
+    font-size: 0.65rem;
+    color: #333;
     line-height: 1rem;
 }
-.modal-title{
+
+.modal-title {
     padding-top: 6.75rem;
-    font-szie:0.85rem;
-    color:#333;
+    font-szie: 0.85rem;
+    color: #333;
     margin-bottom: 1rem;
 }
-.modal-text{
-    font-size:0.65rem;
-    color:#333;
+
+.modal-text {
+    font-size: 0.65rem;
+    color: #333;
     line-height: 1rem;
 }
-.jy-guoyuan{
+
+.jy-guoyuan {
     height: 7.2rem;
 }
-.jy-guoyuan img{
+
+.jy-guoyuan img {
     display: block;
     width: 100%;
 }
-.jy-guoyuan-sw{
+
+.jy-guoyuan-sw {
     padding: 0.75rem;
     background-color: #fff;
 }
-.year-total-num{
+
+.year-total-num {
 
 }
-.year-total-num-list{
+
+.year-total-num-list {
 
 }
-.year-total-num-list-ul{
-margin:0;
-    padding:0;
+
+.year-total-num-list-ul {
+    margin: 0;
+    padding: 0;
     list-style: none;
     background-color: #ecf8ed;
 }
-.year-total-num-list-ul:after{
+
+.year-total-num-list-ul:after {
     display: block;
     content: " ";
     clear: both;
 }
-.year-total-num-list-ul li{
+
+.year-total-num-list-ul li {
     float: left;
     width: 50%;
     height: 2.15rem;
     line-height: 2.15rem;
     text-align: left;
-    border-bottom:1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
     font-size: 0.6rem;
-    color:#000;
+    color: #000;
     padding-left: 2.25rem;
 }
-.year-total-num-list-ul li:nth-child(2n+1){
+
+.year-total-num-list-ul li:nth-child(2n+1) {
     border-right: 1px solid #e8e8e8;
 }
-.year-total-num-list-one-dan{
+
+.year-total-num-list-one-dan {
     display: flex;
     height: 2.15rem;
     background: #52b456;
-    color:#fff;
-    font-size:0.65rem;
+    color: #fff;
+    font-size: 0.65rem;
     padding-left: 2.25rem;
     align-items: center;
 }
-.year-total-num-list-one-dan:after{
+
+.year-total-num-list-one-dan:after {
     display: block;
     content: " ";
     width: 0.6rem;
-    height:0.3rem;
+    height: 0.3rem;
     background: url("../img/jy45.png") no-repeat center center;
     background-size: contain;
     margin-left: 1.25rem;
 }
-.vip-fuli{
-    padding:0.75rem;
+
+.vip-fuli {
+    padding: 0.75rem;
 }
-.vip-fuli-img{
+
+.vip-fuli-img {
 
 }
-.vip-fuli-img img{
+
+.vip-fuli-img img {
     display: block;
     width: 100%;
 }
-.edite-icon{
+
+.edite-icon {
     width: 3rem;
 }
-.edite-icon img{
+
+.edite-icon img {
     display: block;
     width: 100%;
 }
-.sex-select{
-display: flex;
+
+.sex-select {
+    display: flex;
 }
-.sex-select>span{
-width: 1.5rem;
+
+.sex-select > span {
+    width: 1.5rem;
     height: 1.5rem;
     border-radius: 100%;
     background-color: #fff;
@@ -2509,12 +2541,14 @@ width: 1.5rem;
     text-align: center;
     line-height: 1.5rem;
     font-size: 0.7rem;
-    color:#999;
+    color: #999;
 }
-.sex-select>span:last-child{
+
+.sex-select > span:last-child {
     margin-left: 0.55rem;
 }
-.sex-select>span.active-span{
-background-color: #ff8a00;
+
+.sex-select > span.active-span {
+    background-color: #ff8a00;
     color: #fff;
 }
