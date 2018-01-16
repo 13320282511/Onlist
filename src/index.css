@@ -10,22 +10,16 @@ body {
 
 .common-reutrn {
     padding: 0 0.75rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     color: #fff;
     font-size: 0.85rem;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
     background-color: #333;
     height: 2.1rem;
 }
 
 .common-reutrn > span {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    flex: 1;
     text-align: center;
 }
 
@@ -65,12 +59,15 @@ width: auto;
     /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
+    -webkit-justify-content: center;
     justify-content: center;
     -webkit-box-align: center;
     -ms-flex-align: center;
+    -webkit-align-items: center;
     align-items: center;
 }
 
@@ -82,15 +79,9 @@ width: auto;
     bottom: 0.5rem;
     font-size: 0;
     /*下面是新增的，如有兼容问题则删除*/
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .swiper-pagination-bullet {
@@ -113,14 +104,9 @@ width: auto;
 }
 
 .bar a.tab-item > div {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     height: 1.45rem;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+    flex-direction: column-reverse;
 }
 
 .bar:after {
@@ -234,27 +220,19 @@ width: auto;
 }
 
 .dynamic-information-list-top {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     margin-bottom: .675rem;
 }
 
 .dynamic-information-ds {
     padding: 0 0.75rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     height: 2.25rem;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
 }
 
 .dynamic-information-ds h3 {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    flex: 1;
     border-left: 0.15rem solid #53b557;
     padding-left: 0.7rem;
     font-size: 0.7rem;
@@ -263,14 +241,10 @@ width: auto;
 }
 
 .dynamic-information-ds > a {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     width: .3rem;
     height: 0.6rem;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    justify-content: flex-end;
     background: url("../img/dynamic-icon2.png") no-repeat center center;
     background-size: .3rem .6rem;
 }
@@ -287,25 +261,15 @@ width: auto;
 }
 
 .dynamic-information-list-top a.dynamic-information-list-content {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    flex: 1;
     color: #666;
     font-size: .6rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .dynamic-information-list-bottom {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
 }
 
@@ -314,33 +278,19 @@ width: auto;
     margin-right: .5rem;
     font-size: .6rem;
     color: #999999;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
 }
 
 .dynamic-information-list-bottom .time span.timespan {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    flex: 1;
     display: flex;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    justify-content: flex-end;
 }
 
 .dynamic-information-list-bottom .total {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    flex: 1;
     display: flex;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    justify-content: flex-end;
     font-size: .6rem;
 }
 
@@ -361,21 +311,15 @@ width: auto;
     background-color: #e8e8e8;
     height: 1.7rem;
     border-radius: 3rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
     padding: 0 0.75rem;
 }
 
 .search-all-in input {
     border: none;
     background: transparent;
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    flex: 1;
     color: #ccc;
     font-size: 0.7rem;
 }
@@ -402,8 +346,6 @@ width: auto;
 }
 
 .select-all {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     height: 2.1rem;
     border-top: 1px solid #e8e8e8;
@@ -415,35 +357,21 @@ width: auto;
 }
 
 .select-all .select-list-one {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    flex: 1;
     display: flex;
     height: 2.1rem;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     font-size: .75rem;
     color: #333;
     border-right: 1px solid #e8e8e8;
 }
 
 .select-all .select-list-one-comsunpation {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    flex: 1;
     display: flex;
     height: 2.1rem;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
     font-size: .75rem;
     color: #333;
     border-right: 1px solid #e8e8e8;
@@ -479,8 +407,7 @@ width: auto;
     position: absolute;
     right: 0.875rem;
     top: 50%;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 .select-all .select-list-one-comsunpation:nth-child(2) {
@@ -497,8 +424,6 @@ width: auto;
 
 .fruit-list-one {
     padding: 0.75rem 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     border-bottom: 1px solid #e8e8e8;
 }
@@ -518,24 +443,15 @@ width: auto;
 }
 
 .fruit-list-content {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    flex: 1;
     padding-right: 0.75rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     height: 3.825rem;
 }
 
 .fruit-list-content > a {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    flex: 1;
     font-size: 0.7rem;
     color: #333;
 
@@ -543,26 +459,16 @@ width: auto;
 
 .fruit-list-bottom {
     /*height: 0.9rem;*//*不確定是否需要設置具體高度*/
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
+    align-items: flex-end;
 }
 
 .fruit-list-bottom-left {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    flex: 1;
     font-size: 0;
     /*如有兼容删除以下*/
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
+    align-items: flex-end;
 }
 
 .fruit-list-bottom-left span.vip {
@@ -631,15 +537,9 @@ width: auto;
     background: url("../img/trading1.png") no-repeat center center;
     background-size: 100% 2.5rem;
     background-color: #fff;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .trading-tree {
@@ -648,26 +548,16 @@ width: auto;
     background: url("../img/trading2.png") no-repeat center center;
     background-size: 100% 2.5rem;
     background-color: #fff;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .trading-market-content {
     color: #000;
     font-size: 0.75rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
 }
 
 .trading-market-content:after {
@@ -695,12 +585,8 @@ width: auto;
 .trading-hot-shop-title {
     height: 2.175rem;
     padding: 0 0.75rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
 }
 
 .trading-hot-shop-title h2 {
@@ -869,12 +755,8 @@ width: auto;
 
 .delivery-description-address {
     height: 2.2rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
     border-bottom: 1px solid #e8e8e8;
 }
 
@@ -886,16 +768,12 @@ width: auto;
 }
 
 .delivery-description-address span.address-ds {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    flex: 1;
     color: #333;
     font-size: 0.65rem;
 }
 
 .delivery-description-guige {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     padding-top: 0.75rem;
 }
@@ -908,9 +786,7 @@ width: auto;
 }
 
 .delivery-description-guige-select {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    flex: 1;
 }
 
 .delivery-description-guige-select:after {
@@ -943,8 +819,6 @@ width: auto;
 }
 
 .delivery-description-num {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     padding-top: 0.75rem;
 }
@@ -964,12 +838,8 @@ width: auto;
     border: 1px solid #e8e8e8;
     border-radius: 3px;
     overflow: hidden;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
 }
 
 .delivery-description-num-select > a {
@@ -1030,15 +900,11 @@ width: auto;
 }
 
 .fruit-detail-button {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
 }
 
 .fruit-detail-button > a {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    flex: 1;
     text-align: center;
     line-height: 2.5rem;
     color: #fff;
@@ -1060,48 +926,24 @@ width: auto;
 }
 
 .fruit-income-inner {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
 }
 
 .fruit-income-output {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    flex: 1;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     border-right: 1px solid #e8e8e8;
 }
 
 .fruit-income-output-sale {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    flex: 1;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     border-right: 1px solid #e8e8e8;
 }
 
@@ -1144,22 +986,11 @@ width: auto;
 }
 
 .fruit-income-money {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    flex: 1;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .fruit-income-money > span {
@@ -1179,8 +1010,6 @@ width: auto;
 
 /*我的果园*/
 .dynamic-information-ds > span {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     width: 4.9rem;
     height: 1.25rem;
@@ -1188,12 +1017,8 @@ width: auto;
     color: #fff;
     font-size: 0.6rem;
     border-radius: 1rem;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .myorchard-fruit {
@@ -1206,26 +1031,15 @@ width: auto;
 }
 
 .myorchard-fruit-icon {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     margin-bottom: 0.75rem;
 }
 
 .myorchard-fruit-icon-one {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    align-items: center;
+    flex-direction: column;
 }
 
 .myorchard-fruit-icon-oneimg {
@@ -1253,15 +1067,9 @@ width: auto;
 }
 
 .tongzhi-guoyuan {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     height: 2.2rem;
     border-radius: 3px;
     background-color: #fff;
@@ -1281,26 +1089,15 @@ width: auto;
 }
 
 .myorchard-fruit-guoyuan-inner {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     padding: 0 0.5rem;
 }
 
 .myorchard-fruit-guoyuands {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    flex: 1;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .myorchard-fruit-guoyuands > a {
@@ -1330,8 +1127,6 @@ width: auto;
 .myorchard-fruit-all-list {
     padding: 0.75rem 0.75rem 0.75rem 0;
     border-top: 1px solid #e8e8e8;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
 }
 
@@ -1348,25 +1143,16 @@ width: auto;
 }
 
 .myorchard-fruit-all-list-right {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    flex: 1;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
 }
 
 .myorchard-fruit-all-list-right > a {
     color: #333;
     font-size: 0.7rem;
     line-height: 1rem;
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    flex: 1;
 }
 
 .myorchard-fruit-all-list-right > a > span {
@@ -1384,8 +1170,6 @@ width: auto;
 
 .myorchard-fruit-all-list-bt {
     height: 1.3rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
 }
 
@@ -1394,9 +1178,7 @@ width: auto;
 }
 
 .caizai {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    flex: 1;
 }
 
 .caizai > a {
@@ -1432,8 +1214,6 @@ width: auto;
     border-radius: 3px;
     font-size: 0.6rem;
     color: #999;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     line-height: 1;
     padding: 0;
@@ -1441,12 +1221,8 @@ width: auto;
 
 .caizai-right {
     width: 3.65rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    justify-content: flex-end;
 }
 
 .caizai-right-zhuanmai {
@@ -1526,13 +1302,9 @@ width: auto;
 .mature-ct-one {
     color: #333;
     font-size: 0.65rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     margin-bottom: 1.325rem;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
 }
 
 .mature-ct-one:last-child {
@@ -1727,8 +1499,6 @@ width: auto;
 }
 
 .fruit-income-inner-sale {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     height: 100%;
 }
@@ -1774,12 +1544,8 @@ width: auto;
 
 .fruit-sucess-inner {
     padding: 0 0.75rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
     height: 100%;
 }
 
@@ -1794,16 +1560,9 @@ width: auto;
 }
 
 .fruit-sucess-right {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    flex: 1;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
 }
 
 .fruit-sucess-right > a {
@@ -1823,12 +1582,8 @@ width: auto;
 
 .pay-sucess-inner {
     padding: 0 0.75rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
     height: 100%;
 }
 
@@ -1843,16 +1598,9 @@ width: auto;
 }
 
 .pay-sucess-right {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    flex: 1;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
 }
 
 .pay-sucess-right > a {
@@ -1870,12 +1618,8 @@ width: auto;
     height: 2.2rem;
     padding: 0 0.75rem;
     border-bottom: 1px solid #e8e8e8;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
 }
 
 .fruit-sale-sucess-num-inner {
@@ -1895,12 +1639,8 @@ width: auto;
 }
 
 .fruit-data-csg-list {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
     height: 1.35rem;
 }
 
@@ -1916,9 +1656,7 @@ width: auto;
 }
 
 .fruit-data-csg-list > span {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    flex: 1;
     color: #666;
     font-size: 0.65rem;
 
@@ -1948,13 +1686,9 @@ width: auto;
 }
 
 .edite-address-delete {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     background-color: #fff;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
     height: 2.2rem;
     color: #f44336;
     font-size: 0.65rem;
@@ -1967,12 +1701,8 @@ width: auto;
     padding: 0 0.75rem;
     background-color: #fff;
     height: 1.9rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
     border-bottom: 1px solid #e8e8e8;
     border-top: 1px solid #e8e8e8;
 }
@@ -1980,12 +1710,8 @@ width: auto;
 .select-address-default-set {
     font-size: 0.6rem;
     color: #333;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
 
 }
 
@@ -2010,26 +1736,16 @@ width: auto;
 }
 
 .select-address-default-opreation {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    flex: 1;
     display: flex;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    justify-content: flex-end;
 }
 
 .select-address-default-opreation > a {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     color: #999;
     font-size: 0.6rem;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
 }
 
 .select-address-default-opreation a.edite-a:before {
@@ -2065,23 +1781,15 @@ width: auto;
     background-color: #fff;
     border-top: 1px solid #e8e8e8;
     padding: 0 0 0 0.75rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
 }
 
 .shopcart-button > a.all-select-ok {
     font-size: 0.6rem;
     color: #333;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
 }
 
 .shopcart-button > a.all-select-ok:before {
@@ -2107,9 +1815,7 @@ width: auto;
 .shopcart-all-num {
     font-size: 0.75rem;
     color: #333;
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    flex: 1;
     text-align: right;
 }
 
@@ -2119,19 +1825,13 @@ width: auto;
 
 .shopcart-button > a.go-buy {
     width: 4.5rem;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
     background-color: #ff8a00;
     font-size: 0.75rem;
     height: 100%;
     color: #fff;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
     margin-left: 0.75rem;
     margin-top: -2px;
     position: relative;
@@ -2163,18 +1863,10 @@ width: auto;
 }
 
 .item-content-last {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    flex: 1;
     display: flex;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: flex-end;
+    align-items: center;
     font-size: 0.6rem;
     color: #333;
     padding: 0 0.75rem;
@@ -2187,27 +1879,17 @@ width: auto;
 
 .pay-wrap {
     height: 3.5rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
     padding: 0 0.875rem 0 0.75rem;
     background-color: #fff;
     border-bottom: 1px solid #e8e8e8;
 }
 
 .pay-innner {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    flex: 1;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
 }
 
 .pay-innner:after {
@@ -2243,9 +1925,7 @@ width: auto;
 }
 
 .pay-inner-ds {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    flex: 1;
 }
 
 .pay-inner-ds > h3 {
@@ -2274,13 +1954,9 @@ width: auto;
 
 .my-fruit-order-num {
     /*font-family: "PingFang SC Regular";*/
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     height: 2.2rem;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
     padding: 0 0.75rem;
     border-bottom: 1px solid #e8e8e8;
 }
@@ -2288,9 +1964,7 @@ width: auto;
 .my-fruit-order-num > span.my-fruit-order-num-span1 {
     font-size: 0.6rem;
     color: #333;
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    flex: 1;
 }
 
 .my-fruit-order-num > span.my-fruit-order-num-span2 {
@@ -2323,9 +1997,7 @@ width: auto;
 .my-fruit-order-num > span.my-fruit-order-num-span7 {
     font-size: 0.65rem;
     color: #666;
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    flex: 1;
 }
 
 .my-fruit-order-num > span.my-fruit-order-num-span8 {
@@ -2364,17 +2036,10 @@ width: auto;
 }
 
 .shipping-ct-inner {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     height: 100%;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .shipping-ct-inner > span {
@@ -2394,12 +2059,8 @@ width: auto;
 .shipping-ct-total-inner {
     border-bottom: 1px solid #e8e8e8;
     height: 2.25rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
     font-size: 0.65rem;
     color: #666;
 }
@@ -2407,9 +2068,7 @@ width: auto;
     border-bottom: none;
 }
 .shipping-ct-total-inner > span:first-child {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    flex: 1;
 }
 
 .shipping-ct-total-inner > span {
@@ -2417,9 +2076,7 @@ width: auto;
 }
 
 .shipping-ct-total-inner > span.spanshi {
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    justify-content: flex-end;
     text-align: right;
 }
 
@@ -2436,15 +2093,9 @@ width: auto;
     border-top: 1px solid #e8e8e8;
     height: 2.5rem;
     padding: 0 0.75rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .no-dingdan > a {
@@ -2562,18 +2213,10 @@ width: auto;
     position: absolute;
     top: 1.45rem;
     left: 50%;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    transform: translateX(-50%);
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .person-center-ab > span {
@@ -2665,13 +2308,9 @@ width: auto;
 
 .msg-tongzhi > a {
     padding: 0 0.75rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     height: 100%;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
     border-bottom: 1px solid #e8e8e8;
     background-color: #fff;
 }
@@ -2689,9 +2328,7 @@ width: auto;
 }
 
 .msg-tongzhi-right {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    flex: 1;
 }
 
 .msg-tongzhi-right > h3 {
@@ -2826,17 +2463,13 @@ margin:0;
     border-right: 1px solid #e8e8e8;
 }
 .year-total-num-list-one-dan{
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     height: 2.15rem;
     background: #52b456;
     color:#fff;
     font-size:0.65rem;
     padding-left: 2.25rem;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
 }
 .year-total-num-list-one-dan:after{
     display: block;
@@ -2865,8 +2498,6 @@ margin:0;
     width: 100%;
 }
 .sex-select{
-display: -webkit-box;
-display: -ms-flexbox;
 display: flex;
 }
 .sex-select>span{
