@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport"
+          content="initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, user-scalable=no">
+    <link href="css/sm.css" rel="stylesheet">
+    <link href="css/swiper.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <script type="text/javascript" src="js/zepto.min.js"></script>
+    <script>
+        $.config = {router: false}
+    </script>
+    <script type="text/javascript" src="js/sm.min.js"></script>
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+</head>
+<body>
+<style type="text/css">
+    .content {
+        background: #f4f4f4;
+        bottom: 0;
+    }
+
+    .buttons-tab .button {
+        height: 2.1rem;
+        line-height: 2.1rem;
+        border-bottom: 0.1rem solid transparent;
+        color: #333;
+        font-size: 0.75rem;
+    }
+
+    .buttons-tab .button.active {
+        color: #ff8a00;
+        border-color: #e8e8e8;
+        border-bottom: 0.1rem solid #ff8a00;
+    }
+
+    .buttons-tab > a.button {
+        border-right: 1px solid #e8e8e8;
+    }
+
+    .buttons-tab > a.button:last-child {
+        border-right: 0;
+    }
+
+    .content-block {
+        margin: 0;
+        padding: 0;
+    }
+    .fruit-income-output > span{
+        color: #3dbd69;
+    }
+    .fruit-income-output > a{
+        background: url("./img/add-bu.png") no-repeat left center;
+        background-size: 0.85rem 0.875rem;
+    }
+    .fruit-income-money > a{
+        background: url("./img/add-bu1.png") no-repeat left center;
+        background-size: 0.775rem 0.875rem;
+    }
+    .fruit-income-money > span{
+        color: #ff8a00;
+    }
+    .fruit-income-money > span font{
+        font-size: 0.6rem;
+    }
+    .fruit-income{
+        border-bottom: 1px solid #eee;
+        border-top: 1px solid #eee;
+    }
+    .add-riqi{
+        height: 2.25rem;
+        color: #333;
+        font-size: 0.75rem;
+        line-height: 2.25rem;
+        padding: 0 0.75rem;
+        background-color: #fff;
+    }
+    .dynamic-information-top{
+        border: none;
+    }
+    .add-ms{
+        padding: 0 0.75rem;
+        font-size: 0.65rem;
+        color: #999999;
+        line-height: 1rem;
+    }
+</style>
+<div class="content">
+    <section class="common-reutrn">
+        <a href="javascript:history.back(-1)"></a>
+        <span>我的佣金收入</span>
+    </section>
+    <div class="buttons-tab">
+        <a href="#tab1" class="tab-link active button">近7日收入</a>
+        <a href="#tab2" class="tab-link button">近30日收入</a>
+    </div>
+    <div class="content-block">
+        <div class="tabs">
+            <div id="tab1" class="tab active">
+                <div class="content-block">
+                    <div class="add-riqi">2018.01.20 —— 2018.01.27</div>
+                    <div class="fruit-income">
+                        <div class="fruit-income-inner">
+                            <div class="fruit-income-output">
+                                <span>89</span>
+                                <a>付款订单笔数</a>
+                            </div>
+                            <div class="fruit-income-money">
+                                <span><font>￥</font>120000</span>
+                                <a>付款订单收入</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dynamic-information-top">
+                        <div class="dynamic-information-ds">
+                            <h3>友情提示</h3>
+                        </div>
+                    </div>
+                    <div class="add-ms">付款订单笔数由推广带来的您选择时间段内的付款订单笔数<br>付款订单收入也是由推广带来的您选择时间段内的付款订单<br>收入。</div>
+                </div>
+            </div>
+            <div id="tab2" class="tab">
+                <div class="content-block">
+                    <div class="add-riqi">2018.01.20 —— 2018.01.27</div>
+                    <div class="fruit-income">
+                        <div class="fruit-income-inner">
+                            <div class="fruit-income-output">
+                                <span>89</span>
+                                <a>付款订单笔数</a>
+                            </div>
+                            <div class="fruit-income-money">
+                                <span><font>￥</font>120000</span>
+                                <a>付款订单收入</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dynamic-information-top">
+                        <div class="dynamic-information-ds">
+                            <h3>友情提示</h3>
+                        </div>
+                    </div>
+                    <div class="add-ms">付款订单笔数由推广带来的您选择时间段内的付款订单笔数<br>付款订单收入也是由推广带来的您选择时间段内的付款订单<br>收入。</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+
+    });
+</script>
+</body>
+</html>

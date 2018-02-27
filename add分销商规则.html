@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport"
+          content="initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, user-scalable=no">
+    <link href="css/sm.css" rel="stylesheet">
+    <link href="css/swiper.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <script type="text/javascript" src="js/zepto.min.js"></script>
+    <script>
+        $.config = {router: false}
+    </script>
+    <script type="text/javascript" src="js/sm.min.js"></script>
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+    <script type="text/javascript" src="js/leftHua.js"></script>
+</head>
+<body>
+<style type="text/css">
+    .content{
+        background-color: #f4f4f4;
+        display: flex;
+        flex-direction: column;
+        bottom: 0;
+    }
+    .haibao-bg{
+        flex: 1;
+        background: url("./img/add-fen-guize.png") no-repeat center center;
+        background-size: cover;
+        position: relative;
+        padding:0.75rem;
+    }
+    .haibao-bg>h3{
+        margin: 0;
+        padding: 0;
+        font-size: 0.85rem;
+        color: #333;
+        line-height: 1.2rem;
+        text-align: left;
+    }
+    .haibao-bg pre{
+        font-size: 0.6rem;
+        color: #333;
+        line-height: 1rem;
+    }
+    .add-fen-guize-ct{
+        font-size: 0.65rem;
+        color: #333;
+        line-height: 1rem;
+    }
+</style>
+<div class="content">
+    <section class="common-reutrn">
+        <a href="javascript:history.back(-1)" ></a>
+        <span>分销规则说明</span>
+    </section>
+    <div class="haibao-bg">
+        <h3>共享农场三级分销规则说明：<br/></h3>
+        <div class="add-fen-guize-ct">
+            1. 在平台直接下单购买商品的用户，即刻成为一级分销商。<br>
+            在个人中心拥有自己的推广二维码。通过分享二维码来获得<br>
+            佣金，可往下再发展两级分销商。<br>
+            2. 每一位分销商均可以往下发展两级分销商，无限循环。分<br>
+            销商销售佣金可设置每个级别获取不同。<br>
+            3. 每一位分销商的下级卖出的商品，自己可以获得推广佣金<br>推广佣金最多提取三级。<br>
+            4. 分销商后台可查看下面两级分销商的数量及销售情况。<br>
+            5. 分销逻辑：<br>
+            A用户下级B用户、C用户（B用户记录A用户专属，C用户记<br>录A、B用户专属）<br>
+            【B用户推广的产品A获得佣金，C用户推广的产品A、B获得<br>佣金】<br>
+            B用户下级D用户、E用户（D用户记录B用户专属，E用户记<br>录B、D用户专属）<br>
+            C用户下级F用户、G用户（F用户记录C用户专属，G用户记<br>录F、C用户专属）<br>
+            【C用户推广的产品F获得佣金，G用户推广的产品F、C获得<br>佣金】<br>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

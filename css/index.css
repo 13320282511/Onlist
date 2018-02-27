@@ -16,16 +16,16 @@ body {
     color: #fff;
     font-size: 0.85rem;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     background-color: #333;
     height: 2.1rem;
 }
 
 .common-reutrn > span {
     -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    -ms-flex: 1;
+    flex: 1;
     text-align: center;
 }
 
@@ -88,11 +88,11 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 
 .swiper-pagination-bullet {
@@ -121,8 +121,8 @@ body {
     height: 1.45rem;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
 }
 
 .bar:after {
@@ -249,14 +249,14 @@ body {
     display: flex;
     height: 2.25rem;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .dynamic-information-ds h3 {
     -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    -ms-flex: 1;
+    flex: 1;
     border-left: 0.15rem solid #53b557;
     padding-left: 0.7rem;
     font-size: 0.7rem;
@@ -271,8 +271,8 @@ body {
     width: .3rem;
     height: 0.6rem;
     -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
     background: url("../img/dynamic-icon2.png") no-repeat center center;
     background-size: .3rem .6rem;
 }
@@ -290,19 +290,19 @@ body {
 
 .dynamic-information-list-top a.dynamic-information-list-content {
     -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    -ms-flex: 1;
+    flex: 1;
     color: #666;
     font-size: .6rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .dynamic-information-list-bottom {
@@ -323,26 +323,26 @@ body {
 
 .dynamic-information-list-bottom .time span.timespan {
     -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    -ms-flex: 1;
+    flex: 1;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
 }
 
 .dynamic-information-list-bottom .total {
     -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    -ms-flex: 1;
+    flex: 1;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
     font-size: .6rem;
 }
 
@@ -367,8 +367,8 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     padding: 0 0.75rem;
 }
 
@@ -376,8 +376,8 @@ body {
     border: none;
     background: transparent;
     -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    -ms-flex: 1;
+    flex: 1;
     color: #ccc;
     font-size: 0.7rem;
 }
@@ -418,18 +418,18 @@ body {
 
 .select-all .select-list-one {
     -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    -ms-flex: 1;
+    flex: 1;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     height: 2.1rem;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     font-size: .75rem;
     color: #333;
     border-right: 1px solid #e8e8e8;
@@ -437,15 +437,15 @@ body {
 
 .select-all .select-list-one-comsunpation {
     -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    -ms-flex: 1;
+    flex: 1;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     height: 2.1rem;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     font-size: .75rem;
     color: #333;
     border-right: 1px solid #e8e8e8;
@@ -482,7 +482,7 @@ body {
     right: 0.875rem;
     top: 50%;
     -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 .select-all .select-list-one-comsunpation:nth-child(2) {
@@ -521,23 +521,23 @@ body {
 
 .fruit-list-content {
     -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    -ms-flex: 1;
+    flex: 1;
     padding-right: 0.75rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     height: 3.825rem;
 }
 
 .fruit-list-content > a {
     -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    -ms-flex: 1;
+    flex: 1;
     font-size: 0.7rem;
     color: #333;
 
@@ -549,22 +549,22 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
 }
 
 .fruit-list-bottom-left {
     -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    -ms-flex: 1;
+    flex: 1;
     font-size: 0;
     /*如有兼容删除以下*/
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
 }
 
 .fruit-list-bottom-left span.vip {
@@ -637,11 +637,11 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .trading-tree {
@@ -654,11 +654,11 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .trading-market-content {
@@ -668,8 +668,8 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .trading-market-content:after {
@@ -701,8 +701,8 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .trading-hot-shop-title h2 {
@@ -875,8 +875,8 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     border-bottom: 1px solid #e8e8e8;
 }
 
@@ -889,8 +889,8 @@ body {
 
 .delivery-description-address span.address-ds {
     -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    -ms-flex: 1;
+    flex: 1;
     color: #333;
     font-size: 0.65rem;
 }
@@ -911,8 +911,8 @@ body {
 
 .delivery-description-guige-select {
     -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    -ms-flex: 1;
+    flex: 1;
 }
 
 .delivery-description-guige-select:after {
@@ -970,8 +970,8 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .delivery-description-num-select > a {
@@ -1039,8 +1039,8 @@ body {
 
 .fruit-detail-button > a {
     -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    -ms-flex: 1;
+    flex: 1;
     text-align: center;
     line-height: 2.5rem;
     color: #fff;
@@ -1069,41 +1069,41 @@ body {
 
 .fruit-income-output {
     -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    -ms-flex: 1;
+    flex: 1;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     border-right: 1px solid #e8e8e8;
 }
 
 .fruit-income-output-sale {
     -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    -ms-flex: 1;
+    flex: 1;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     border-right: 1px solid #e8e8e8;
 }
 
@@ -1147,21 +1147,21 @@ body {
 
 .fruit-income-money {
     -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    -ms-flex: 1;
+    flex: 1;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
 }
 
 .fruit-income-money > span {
@@ -1191,11 +1191,11 @@ body {
     font-size: 0.6rem;
     border-radius: 1rem;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .myorchard-fruit {
@@ -1212,8 +1212,8 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     margin-bottom: 0.75rem;
 }
 
@@ -1222,12 +1222,12 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
 }
 
 .myorchard-fruit-icon-oneimg {
@@ -1259,11 +1259,11 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     height: 2.2rem;
     border-radius: 3px;
     background-color: #fff;
@@ -1291,18 +1291,18 @@ body {
 
 .myorchard-fruit-guoyuands {
     -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    -ms-flex: 1;
+    flex: 1;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
 }
 
 .myorchard-fruit-guoyuands > a {
@@ -1351,15 +1351,15 @@ body {
 
 .myorchard-fruit-all-list-right {
     -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    -ms-flex: 1;
+    flex: 1;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
 }
 
 .myorchard-fruit-all-list-right > a {
@@ -1367,8 +1367,8 @@ body {
     font-size: 0.7rem;
     line-height: 1rem;
     -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    -ms-flex: 1;
+    flex: 1;
 }
 
 .myorchard-fruit-all-list-right > a > span {
@@ -1397,8 +1397,8 @@ body {
 
 .caizai {
     -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    -ms-flex: 1;
+    flex: 1;
 }
 
 .caizai > a {
@@ -1447,8 +1447,8 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
 }
 
 .caizai-right-zhuanmai {
@@ -1533,8 +1533,8 @@ body {
     display: flex;
     margin-bottom: 1.325rem;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .mature-ct-one:last-child {
@@ -1780,8 +1780,8 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     height: 100%;
 }
 
@@ -1797,15 +1797,15 @@ body {
 
 .fruit-sucess-right {
     -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    -ms-flex: 1;
+    flex: 1;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
 }
 
 .fruit-sucess-right > a {
@@ -1829,8 +1829,8 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     height: 100%;
 }
 
@@ -1846,15 +1846,15 @@ body {
 
 .pay-sucess-right {
     -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    -ms-flex: 1;
+    flex: 1;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
 }
 
 .pay-sucess-right > a {
@@ -1876,8 +1876,8 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .fruit-sale-sucess-num-inner {
@@ -1901,8 +1901,8 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     height: 1.35rem;
 }
 
@@ -1919,8 +1919,8 @@ body {
 
 .fruit-data-csg-list > span {
     -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    -ms-flex: 1;
+    flex: 1;
     color: #666;
     font-size: 0.65rem;
 
@@ -1955,8 +1955,8 @@ body {
     display: flex;
     background-color: #fff;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     height: 2.2rem;
     color: #f44336;
     font-size: 0.65rem;
@@ -1973,8 +1973,8 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     border-bottom: 1px solid #e8e8e8;
     border-top: 1px solid #e8e8e8;
 }
@@ -1986,8 +1986,8 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 
 }
 
@@ -2013,14 +2013,14 @@ body {
 
 .select-address-default-opreation {
     -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    -ms-flex: 1;
+    flex: 1;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
 }
 
 .select-address-default-opreation > a {
@@ -2030,8 +2030,8 @@ body {
     color: #999;
     font-size: 0.6rem;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .select-address-default-opreation a.edite-a:before {
@@ -2071,8 +2071,8 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .shopcart-button > a.all-select-ok {
@@ -2082,8 +2082,8 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .shopcart-button > a.all-select-ok:before {
@@ -2110,8 +2110,8 @@ body {
     font-size: 0.75rem;
     color: #333;
     -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    -ms-flex: 1;
+    flex: 1;
     text-align: right;
 }
 
@@ -2122,8 +2122,8 @@ body {
 .shopcart-button > a.go-buy {
     width: 4.5rem;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     background-color: #ff8a00;
     font-size: 0.75rem;
     height: 100%;
@@ -2132,8 +2132,8 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     margin-left: 0.75rem;
     margin-top: -2px;
     position: relative;
@@ -2166,17 +2166,17 @@ body {
 
 .item-content-last {
     -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    -ms-flex: 1;
+    flex: 1;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     font-size: 0.6rem;
     color: #333;
     padding: 0 0.75rem;
@@ -2193,8 +2193,8 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     padding: 0 0.875rem 0 0.75rem;
     background-color: #fff;
     border-bottom: 1px solid #e8e8e8;
@@ -2202,14 +2202,14 @@ body {
 
 .pay-innner {
     -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    -ms-flex: 1;
+    flex: 1;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .pay-innner:after {
@@ -2246,8 +2246,8 @@ body {
 
 .pay-inner-ds {
     -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    -ms-flex: 1;
+    flex: 1;
 }
 
 .pay-inner-ds > h3 {
@@ -2281,8 +2281,8 @@ body {
     display: flex;
     height: 2.2rem;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     padding: 0 0.75rem;
     border-bottom: 1px solid #e8e8e8;
 }
@@ -2291,8 +2291,8 @@ body {
     font-size: 0.6rem;
     color: #333;
     -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    -ms-flex: 1;
+    flex: 1;
 }
 
 .my-fruit-order-num > span.my-fruit-order-num-span2 {
@@ -2326,8 +2326,8 @@ body {
     font-size: 0.65rem;
     color: #666;
     -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    -ms-flex: 1;
+    flex: 1;
 }
 
 .my-fruit-order-num > span.my-fruit-order-num-span8 {
@@ -2372,11 +2372,11 @@ body {
     height: 100%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 
 .shipping-ct-inner > span {
@@ -2400,8 +2400,8 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     font-size: 0.65rem;
     color: #666;
 }
@@ -2412,8 +2412,8 @@ body {
 
 .shipping-ct-total-inner > span:first-child {
     -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    -ms-flex: 1;
+    flex: 1;
 }
 
 .shipping-ct-total-inner > span {
@@ -2422,8 +2422,8 @@ body {
 
 .shipping-ct-total-inner > span.spanshi {
     -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
     text-align: right;
 }
 
@@ -2444,11 +2444,11 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
 }
 
 .no-dingdan > a {
@@ -2543,6 +2543,16 @@ body {
     margin-right: 0.8rem;
 }
 
+.person-myxiaoshou:before {
+    display: block;
+    content: " ";
+    width: 1.25rem;
+    height: 1.25rem;
+    background: url("../img/icon-personadd.png") no-repeat center center;
+    background-size: cover;
+    margin-right: 0.8rem;
+}
+
 .person-center-top {
     height: 7.2rem;
     background: url("../img/icon-person8.png") no-repeat center center;
@@ -2567,17 +2577,17 @@ body {
     top: 1.45rem;
     left: 50%;
     -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
+    transform: translateX(-50%);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .person-center-ab > span {
@@ -2674,8 +2684,8 @@ body {
     display: flex;
     height: 100%;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     border-bottom: 1px solid #e8e8e8;
     background-color: #fff;
 }
@@ -2694,8 +2704,8 @@ body {
 
 .msg-tongzhi-right {
     -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    -ms-flex: 1;
+    flex: 1;
 }
 
 .msg-tongzhi-right > h3 {
@@ -2859,8 +2869,8 @@ body {
     font-size: 0.65rem;
     padding-left: 2.25rem;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .year-total-num-list-one-dan:after {
@@ -2920,4 +2930,306 @@ body {
 .sex-select > span.active-span {
     background-color: #ff8a00;
     color: #fff;
+}
+
+/*分销商*/
+.icon-add1:before {
+    display: block;
+    content: " ";
+    width: 1.25rem;
+    height: 1.25rem;
+    background: url("../img/icon-add1.png") no-repeat center center;
+    background-size: cover;
+    margin-right: 0.8rem;
+}
+
+.icon-add2:before {
+    display: block;
+    content: " ";
+    width: 1.25rem;
+    height: 1.25rem;
+    background: url("../img/icon-add2.png") no-repeat center center;
+    background-size: cover;
+    margin-right: 0.8rem;
+}
+
+.icon-add3:before {
+    display: block;
+    content: " ";
+    width: 1.25rem;
+    height: 1.25rem;
+    background: url("../img/icon-add3.png") no-repeat center center;
+    background-size: cover;
+    margin-right: 0.8rem;
+}
+
+.icon-add4:before {
+    display: block;
+    content: " ";
+    width: 1.25rem;
+    height: 1.25rem;
+    background: url("../img/icon-add4.png") no-repeat center center;
+    background-size: cover;
+    margin-right: 0.8rem;
+}
+
+.icon-add5:before {
+    display: block;
+    content: " ";
+    width: 1.25rem;
+    height: 1.25rem;
+    background: url("../img/icon-add5.png") no-repeat center center;
+    background-size: cover;
+    margin-right: 0.8rem;
+}
+
+.icon-add6:before {
+    display: block;
+    content: " ";
+    width: 1.25rem;
+    height: 1.25rem;
+    background: url("../img/icon-add6.png") no-repeat center center;
+    background-size: cover;
+    margin-right: 0.8rem;
+}
+
+.add-fenxiaoshang {
+    background: url("../img/add-fenxiaoshang.png") no-repeat center center;
+    background-size: cover;
+    height: 4.25rem;
+}
+
+.add-fen-inner {
+    padding-left: 0.75rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.add-fen-inner-img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.add-fen-inner-img img {
+    display: block;
+    width: 100%;
+    border-radius: 100%;
+}
+
+.add-fen-inner-ct {
+    margin-left: 0.875rem;
+}
+
+.add-fen-name {
+    color: #fff;
+    font-size: 0.7rem;
+}
+
+.add-dengji {
+    color: #fff;
+    font-size: 0.6rem;
+}
+
+.add-dengji:after {
+    display: inline-block;
+    content: " ";
+    width: 0.75rem;
+    height: 0.625rem;
+    background: url("../img/add-fen1.png") no-repeat left center;
+    background-size: cover;
+    margin-left: 5px;
+}
+
+.add-fen-left {
+    width: 2.55rem;
+    height: 2.55rem;
+}
+
+.add-fen-left img {
+    display: block;
+    width: 100%;
+    border-radius: 100%;
+}
+
+.add-fen-right {
+    margin-left: 0.55rem;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.add-fenxiao-name {
+    font-size: 0.8rem;
+    color: 333;
+}
+
+.add-fen-right-bt {
+    display: flex;
+    flex-direction: row;
+}
+
+.add-phone {
+    font-size: 0.65rem;
+    color: #999;
+    display: flex;
+    flex: 1;
+}
+
+.add-phone:before {
+    display: block;
+    content: " ";
+    background: url("../img/add-dianhua.png") no-repeat left center;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 100%;
+    background-size: cover;
+}
+
+.add-bt {
+    width: 5.75rem;
+    display: flex;
+}
+
+.add-bt a {
+    display: block;
+    width: 2rem;
+    height: 1.25rem;
+    border-radius: 5px;
+    border: 1px solid #ff8a00;
+    font-size: 0.75rem;
+    text-align: center;
+    line-height: 1.25rem;
+    color: #ff8a00;
+}
+
+.add-bt a:first-child {
+    color: #3dbd69;
+    border-color: #3dbd69;
+    margin-right: 0.75rem;
+}
+
+.add-teshu {
+    padding: 0.75rem;
+}
+
+.add-bt-span {
+    width: 6.5rem;
+    font-size: 0.6rem;
+    color: #999;
+}
+
+.add-content-weixin {
+
+}
+
+.add-weixin {
+    background-color: #fff;
+    line-height: 2.25rem;
+    height: 2.25rem;
+    padding: 0 0.75rem;
+    display: flex;
+}
+
+.add-weixin > span {
+    width: 3.25rem;
+    font-size: 0.65rem;
+    color: #333;
+}
+
+.add-weixin > input {
+    flex: 1;
+    font-size: 0.65rem;
+    color: #999;
+    border: none;
+}
+
+.add-tixian {
+    padding: 0.75rem;
+    background-color: #fff;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.add-tixian > span {
+    display: block;
+    font-size: 0.7rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.add-tixian-input {
+    height: 2.25rem;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    margin-bottom: 0.75rem;
+}
+
+.add-tixian-input > span {
+    font-size: 1rem;
+    color: #333;
+    display: block;
+}
+
+.add-tixian-input > input {
+    font-size: 1rem;
+    color: #333;
+    border: none;
+    flex: 1;
+    display: block;
+}
+
+.add-a-ti{
+    color: #3dbd69;
+    font-size: 0.7rem;
+    border: 1px solid #3dbd69;
+    border-radius: 50px;
+    height: 1.25rem;
+    width: 3.75rem;
+    text-align: center;
+    display: block;
+}
+.add-tixian-bt{
+    font-size: 0.65rem;
+    color: #999;
+}
+.add-tijiao-sq{
+    display:block;
+    padding: 0 0.75rem;
+}
+.add-tijiao-sq a{
+    display: block;
+    width: 100%;
+height: 2.25rem;
+    line-height: 2.25rem;
+    background-color: #3dbd69;
+    color: #fff;
+    font-size: 0.75rem;
+    text-align: center;
+}
+.add-tijiao-sq span{
+    display: block;
+    font-size: 0.65rem;
+    color: #999;
+    line-height: 1rem;
+}
+.add-user-total{
+    padding: 0 0.75rem;
+    font-size: 0.75rem;
+    color: #333;
+    display: flex;
+    height: 2.2rem;
+    align-items: center;
+    border-top: 0.1rem solid #e8e8e8;;
+}
+.add-user-total:before{
+    display: block;
+    content: "";
+    width: 1.125rem;
+    height: 1rem;
+    background: url("../img/add-user-total.png") no-repeat left center;
+    background-size: cover;
+    margin-right: 1rem;
 }
