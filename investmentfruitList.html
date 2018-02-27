@@ -14,6 +14,37 @@
     </script>
     <script type="text/javascript" src="js/sm.min.js"></script>
     <script type="text/javascript" src="js/swiper.min.js"></script>
+    <style>
+        .select-list-one-comsunpation{
+margin-right: 0.25rem;
+        }
+        .comsunpation .select-list-one-comsunpation:last-child{
+            margin-left: 0.25rem;
+            margin-right: 0;
+        }
+        /*.add-select{*/
+            /*padding-left: 0;*/
+        /*}*/
+        .select-all{
+            position: relative;
+        }
+        .add-guoshu-select{
+            display: none;
+            position: absolute;
+            background-color: #f4f4f4;
+            padding-left: 0.75rem;
+            width: 49%;
+            top:2.1rem;
+            left: 0;
+        }
+        .add-guoshu-select span{
+            display: block;
+            line-height: 2.1rem;
+            color: #333;
+            font-size: 0.75rem;
+        }
+
+    </style>
 </head>
 <body class="fruit">
 <div class="content content-fruit">
@@ -28,8 +59,12 @@
         </div>
     </div>
     <div class="select-all comsunpation">
-        <div class="select-list-one-comsunpation">
+        <div class="select-list-one-comsunpation add-select">
             投资型果树
+        </div>
+        <div class="add-guoshu-select">
+            <span>投资型果树</span>
+            <span>消费型果树</span>
         </div>
         <div class="select-list-one-comsunpation">
             销量从高到底
@@ -89,5 +124,22 @@
         </div>
     </div>
 </div>
+<script>
+    $(function(){
+//        $('.add-select').addEventListener('click',function(e){
+//
+//        });
+        var addSelect = document.querySelector('.add-select');
+        var addGuoshu = document.querySelector('.add-guoshu-select');
+        addSelect.addEventListener('click',function(e){
+            addGuoshu.style.display == 'block' ? addGuoshu.style.display = 'none' : addGuoshu.style.display = 'block';
+        })
+
+        addGuoshu.addEventListener('click',function(e){
+            addSelect.innerText = e.target.innerText;
+            addGuoshu.style.display = 'none';
+        })
+    })
+</script>
 </body>
 </html>
